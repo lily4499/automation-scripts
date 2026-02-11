@@ -1,0 +1,6 @@
+[2026-02-11 11:12:48] === LOG CAPTURE START ===
+[2026-02-11 11:12:48] Service: nginx | Since: 1 hour ago
+[2026-02-11 11:12:48] Output folder: /home/lilia/portfolio/automation-scripts/incident-bundles/nginx-bundle-20260211-111248
+[2026-02-11 11:12:49] ✅ Bundle created: /home/lilia/portfolio/automation-scripts/incident-bundles/nginx-bundle-20260211-111248
+[2026-02-11 11:12:49] ✅ Bundle archive: /home/lilia/portfolio/automation-scripts/incident-bundles/nginx-bundle-20260211-111248.tar.gz
+[2026-02-11 11:12:49] === LOG CAPTURE END ===

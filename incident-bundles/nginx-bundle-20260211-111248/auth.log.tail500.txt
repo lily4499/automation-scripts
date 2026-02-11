@@ -1,0 +1,500 @@
+2026-02-09T15:45:01.894915-05:00 liliane CRON[83308]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T15:45:01.903448-05:00 liliane CRON[83308]: pam_unix(cron:session): session closed for user root
+2026-02-09T15:55:01.567710-05:00 liliane CRON[86230]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T15:55:01.594992-05:00 liliane CRON[86230]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:05:01.787942-05:00 liliane CRON[89174]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:05:01.796544-05:00 liliane CRON[89174]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:09:01.400266-05:00 liliane CRON[90370]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:09:01.407600-05:00 liliane CRON[90370]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:15:01.504949-05:00 liliane CRON[92180]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:15:01.514709-05:00 liliane CRON[92180]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:17:01.247074-05:00 liliane CRON[92762]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:17:01.257806-05:00 liliane CRON[92762]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:25:01.783881-05:00 liliane CRON[95118]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:25:01.792677-05:00 liliane CRON[95118]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:35:01.140944-05:00 liliane CRON[98086]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:35:01.148949-05:00 liliane CRON[98086]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:39:01.128559-05:00 liliane CRON[99280]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:39:01.134944-05:00 liliane CRON[99280]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:45:01.519712-05:00 liliane CRON[101085]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:45:01.528978-05:00 liliane CRON[101085]: pam_unix(cron:session): session closed for user root
+2026-02-09T16:55:00.816584-05:00 liliane CRON[104074]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T16:55:00.825708-05:00 liliane CRON[104074]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:05:01.423930-05:00 liliane CRON[107046]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:05:01.433072-05:00 liliane CRON[107046]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:09:01.422001-05:00 liliane CRON[108238]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:09:01.427512-05:00 liliane CRON[108238]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:15:01.362166-05:00 liliane CRON[110047]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:15:01.372137-05:00 liliane CRON[110047]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:17:01.119259-05:00 liliane CRON[110642]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:17:01.131195-05:00 liliane CRON[110642]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:25:01.058576-05:00 liliane CRON[113030]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:25:01.069566-05:00 liliane CRON[113030]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:35:02.001401-05:00 liliane CRON[116000]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:35:02.009934-05:00 liliane CRON[116000]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:39:01.413346-05:00 liliane CRON[117195]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:39:01.419837-05:00 liliane CRON[117195]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:45:01.658384-05:00 liliane CRON[119004]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:45:01.667454-05:00 liliane CRON[119004]: pam_unix(cron:session): session closed for user root
+2026-02-09T17:55:01.680897-05:00 liliane CRON[122012]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T17:55:01.690276-05:00 liliane CRON[122012]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:05:01.221126-05:00 liliane CRON[125016]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:05:01.228918-05:00 liliane CRON[125016]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:09:01.295662-05:00 liliane CRON[126228]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:09:01.301689-05:00 liliane CRON[126228]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:15:00.445129-05:00 liliane CRON[128025]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:15:00.454386-05:00 liliane CRON[128025]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:17:01.982172-05:00 liliane CRON[128648]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:17:01.992420-05:00 liliane CRON[128648]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:25:01.597917-05:00 liliane CRON[131056]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:25:01.606613-05:00 liliane CRON[131056]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:35:01.308460-05:00 liliane CRON[134142]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:35:01.317457-05:00 liliane CRON[134142]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:39:01.191719-05:00 liliane CRON[135287]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:39:01.198414-05:00 liliane CRON[135287]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:45:01.962527-05:00 liliane CRON[137150]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:45:01.971244-05:00 liliane CRON[137150]: pam_unix(cron:session): session closed for user root
+2026-02-09T18:55:01.759096-05:00 liliane CRON[140177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T18:55:01.769207-05:00 liliane CRON[140177]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:05:01.871420-05:00 liliane CRON[143187]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:05:01.881071-05:00 liliane CRON[143187]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:09:01.458704-05:00 liliane CRON[144446]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:09:01.463343-05:00 liliane CRON[144446]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:15:01.806035-05:00 liliane CRON[146223]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:15:01.815313-05:00 liliane CRON[146223]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:17:02.005350-05:00 liliane CRON[146835]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:17:02.015965-05:00 liliane CRON[146835]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:25:01.340727-05:00 liliane CRON[149238]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:25:01.350878-05:00 liliane CRON[149238]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:35:00.064677-05:00 liliane CRON[152254]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:35:00.071140-05:00 liliane CRON[152254]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:39:01.217246-05:00 liliane CRON[153466]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:39:01.223895-05:00 liliane CRON[153466]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:45:01.858999-05:00 liliane CRON[155326]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:45:01.868532-05:00 liliane CRON[155326]: pam_unix(cron:session): session closed for user root
+2026-02-09T19:55:01.564288-05:00 liliane CRON[158344]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T19:55:01.573268-05:00 liliane CRON[158344]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:05:01.179804-05:00 liliane CRON[161380]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:05:01.188070-05:00 liliane CRON[161380]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:09:01.217240-05:00 liliane CRON[162590]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:09:01.225703-05:00 liliane CRON[162590]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:15:01.458076-05:00 liliane CRON[164462]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:15:01.465005-05:00 liliane CRON[164462]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:17:02.011260-05:00 liliane CRON[165043]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:17:02.021880-05:00 liliane CRON[165043]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:25:01.108597-05:00 liliane CRON[167429]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:25:01.118603-05:00 liliane CRON[167429]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:35:01.052413-05:00 liliane CRON[170411]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:35:01.061247-05:00 liliane CRON[170411]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:39:01.397216-05:00 liliane CRON[171656]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:39:01.404043-05:00 liliane CRON[171656]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:45:01.451260-05:00 liliane CRON[173474]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:45:01.458844-05:00 liliane CRON[173474]: pam_unix(cron:session): session closed for user root
+2026-02-09T20:55:01.549356-05:00 liliane CRON[176522]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T20:55:01.558617-05:00 liliane CRON[176522]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:05:01.195076-05:00 liliane CRON[179538]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:05:01.203652-05:00 liliane CRON[179538]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:09:01.599100-05:00 liliane CRON[180790]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:09:01.605471-05:00 liliane CRON[180790]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:15:01.518992-05:00 liliane CRON[182659]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:15:01.528472-05:00 liliane CRON[182659]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:17:01.595766-05:00 liliane CRON[183290]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:17:01.607756-05:00 liliane CRON[183290]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:25:01.951994-05:00 liliane CRON[185691]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:25:01.959449-05:00 liliane CRON[185691]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:35:01.878206-05:00 liliane CRON[188782]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:35:01.887809-05:00 liliane CRON[188782]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:39:01.750509-05:00 liliane CRON[190219]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:39:01.754168-05:00 liliane CRON[190219]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:45:01.669312-05:00 liliane CRON[192072]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:45:01.678309-05:00 liliane CRON[192072]: pam_unix(cron:session): session closed for user root
+2026-02-09T21:55:01.830265-05:00 liliane CRON[195123]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T21:55:01.839818-05:00 liliane CRON[195123]: pam_unix(cron:session): session closed for user root
+2026-02-09T22:05:01.413381-05:00 liliane CRON[198189]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T22:05:01.421802-05:00 liliane CRON[198189]: pam_unix(cron:session): session closed for user root
+2026-02-09T22:09:01.465678-05:00 liliane CRON[199422]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T22:09:01.472560-05:00 liliane CRON[199422]: pam_unix(cron:session): session closed for user root
+2026-02-09T22:15:01.432548-05:00 liliane CRON[201303]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T22:15:01.441473-05:00 liliane CRON[201303]: pam_unix(cron:session): session closed for user root
+2026-02-09T22:17:01.431434-05:00 liliane CRON[201937]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T22:17:01.442783-05:00 liliane CRON[201937]: pam_unix(cron:session): session closed for user root
+2026-02-09T22:25:01.872996-05:00 liliane CRON[204383]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T22:25:01.882656-05:00 liliane CRON[204383]: pam_unix(cron:session): session closed for user root
+2026-02-09T22:35:01.582116-05:00 liliane CRON[207421]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T22:35:01.590838-05:00 liliane CRON[207421]: pam_unix(cron:session): session closed for user root
+2026-02-09T22:39:01.290443-05:00 liliane CRON[208663]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-09T22:39:01.296613-05:00 liliane CRON[208663]: pam_unix(cron:session): session closed for user root
+2026-02-10T08:25:03.044216-05:00 liliane CRON[210913]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T08:25:03.055836-05:00 liliane CRON[210913]: pam_unix(cron:session): session closed for user root
+2026-02-10T08:35:04.712077-05:00 liliane CRON[213736]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T08:35:04.722019-05:00 liliane CRON[213736]: pam_unix(cron:session): session closed for user root
+2026-02-10T08:39:03.805306-05:00 liliane CRON[214895]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T08:39:03.809743-05:00 liliane CRON[214895]: pam_unix(cron:session): session closed for user root
+2026-02-10T08:45:06.001576-05:00 liliane CRON[216595]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T08:45:06.014323-05:00 liliane CRON[216595]: pam_unix(cron:session): session closed for user root
+2026-02-10T08:55:02.472733-05:00 liliane CRON[219265]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T08:55:02.479825-05:00 liliane CRON[219265]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:05:06.744673-05:00 liliane CRON[221975]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:05:06.752074-05:00 liliane CRON[221975]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:09:05.789085-05:00 liliane CRON[223060]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:09:05.793418-05:00 liliane CRON[223060]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:15:06.005000-05:00 liliane CRON[224671]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:15:06.012716-05:00 liliane CRON[224671]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:17:06.612733-05:00 liliane CRON[225196]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:17:06.621419-05:00 liliane CRON[225196]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:25:05.845452-05:00 liliane CRON[227316]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:25:05.852618-05:00 liliane CRON[227316]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:35:03.835699-05:00 liliane CRON[230001]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:35:03.844902-05:00 liliane CRON[230001]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:39:03.341075-05:00 liliane CRON[231171]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:39:03.345554-05:00 liliane CRON[231171]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:45:04.154236-05:00 liliane CRON[232814]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:45:04.160878-05:00 liliane CRON[232814]: pam_unix(cron:session): session closed for user root
+2026-02-10T09:55:04.182473-05:00 liliane CRON[235566]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T09:55:04.191528-05:00 liliane CRON[235566]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:05:04.132767-05:00 liliane CRON[238251]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:05:04.139964-05:00 liliane CRON[238251]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:09:04.866538-05:00 liliane CRON[239382]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:09:04.870570-05:00 liliane CRON[239382]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:15:04.670732-05:00 liliane CRON[240996]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:15:04.678321-05:00 liliane CRON[240996]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:17:03.516753-05:00 liliane CRON[241557]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:17:03.525276-05:00 liliane CRON[241557]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:25:03.404287-05:00 liliane CRON[243688]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:25:03.413499-05:00 liliane CRON[243688]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:35:05.904205-05:00 liliane CRON[246393]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:35:05.911999-05:00 liliane CRON[246393]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:39:05.091890-05:00 liliane CRON[247506]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:39:05.096410-05:00 liliane CRON[247506]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:45:04.879832-05:00 liliane CRON[249115]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:45:04.888526-05:00 liliane CRON[249115]: pam_unix(cron:session): session closed for user root
+2026-02-10T10:55:05.561067-05:00 liliane CRON[251803]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T10:55:05.568345-05:00 liliane CRON[251803]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:05:05.256418-05:00 liliane CRON[254478]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:05:05.264047-05:00 liliane CRON[254478]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:09:06.051610-05:00 liliane CRON[255555]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:09:06.059005-05:00 liliane CRON[255555]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:15:03.370643-05:00 liliane CRON[257147]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:15:03.378550-05:00 liliane CRON[257147]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:17:04.782696-05:00 liliane CRON[257707]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:17:04.790461-05:00 liliane CRON[257707]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:25:03.828745-05:00 liliane CRON[259861]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:25:03.836903-05:00 liliane CRON[259861]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:35:04.376169-05:00 liliane CRON[262603]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:35:04.383892-05:00 liliane CRON[262603]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:39:04.524633-05:00 liliane CRON[263737]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:39:04.528578-05:00 liliane CRON[263737]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:45:03.590758-05:00 liliane CRON[265345]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:45:03.598345-05:00 liliane CRON[265345]: pam_unix(cron:session): session closed for user root
+2026-02-10T11:55:04.717488-05:00 liliane CRON[268059]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T11:55:04.726749-05:00 liliane CRON[268059]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:05:02.741241-05:00 liliane CRON[271546]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:05:02.747184-05:00 liliane CRON[271546]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:09:05.018028-05:00 liliane CRON[273579]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:09:05.021467-05:00 liliane CRON[273579]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:15:05.283084-05:00 liliane CRON[276080]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:15:05.286999-05:00 liliane CRON[276080]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:17:04.778876-05:00 liliane CRON[276916]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:17:04.787257-05:00 liliane CRON[276916]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:25:05.025536-05:00 liliane CRON[280407]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:25:05.029218-05:00 liliane CRON[280407]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:35:05.138076-05:00 liliane CRON[284509]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:35:05.143320-05:00 liliane CRON[284509]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:39:04.409322-05:00 liliane CRON[286218]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:39:04.412224-05:00 liliane CRON[286218]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:45:04.844300-05:00 liliane CRON[288718]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:45:04.848809-05:00 liliane CRON[288718]: pam_unix(cron:session): session closed for user root
+2026-02-10T12:55:02.535816-05:00 liliane CRON[293971]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T12:55:02.540292-05:00 liliane CRON[293971]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:05:04.120262-05:00 liliane CRON[299314]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:05:04.124446-05:00 liliane CRON[299314]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:09:04.317946-05:00 liliane CRON[302325]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:09:04.322416-05:00 liliane CRON[302325]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:15:04.170894-05:00 liliane CRON[306359]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:15:04.176322-05:00 liliane CRON[306359]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:17:02.425735-05:00 liliane CRON[307647]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:17:02.430785-05:00 liliane CRON[307647]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:25:04.661691-05:00 liliane CRON[312940]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:25:04.667483-05:00 liliane CRON[312940]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:35:02.993768-05:00 liliane CRON[319296]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:35:02.999010-05:00 liliane CRON[319296]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:39:02.816567-05:00 liliane CRON[321982]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:39:02.819139-05:00 liliane CRON[321982]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:45:02.937322-05:00 liliane CRON[325861]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:45:02.940561-05:00 liliane CRON[325861]: pam_unix(cron:session): session closed for user root
+2026-02-10T13:55:03.613054-05:00 liliane CRON[332335]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T13:55:03.617043-05:00 liliane CRON[332335]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:05:04.103874-05:00 liliane CRON[338690]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:05:04.109015-05:00 liliane CRON[338690]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:09:03.845217-05:00 liliane CRON[341289]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:09:03.848876-05:00 liliane CRON[341289]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:15:03.955741-05:00 liliane CRON[345080]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:15:03.960995-05:00 liliane CRON[345080]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:17:03.441166-05:00 liliane CRON[346343]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:17:03.445957-05:00 liliane CRON[346343]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:25:04.496859-05:00 liliane CRON[351920]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:25:04.501195-05:00 liliane CRON[351920]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:35:02.632389-05:00 liliane CRON[358485]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:35:02.638097-05:00 liliane CRON[358485]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:39:02.728808-05:00 liliane CRON[361095]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:39:02.732491-05:00 liliane CRON[361095]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:45:02.794678-05:00 liliane CRON[364898]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:45:02.799886-05:00 liliane CRON[364898]: pam_unix(cron:session): session closed for user root
+2026-02-10T14:55:03.136001-05:00 liliane CRON[371310]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T14:55:03.140271-05:00 liliane CRON[371310]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:05:02.884595-05:00 liliane CRON[377679]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:05:02.888834-05:00 liliane CRON[377679]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:09:03.247526-05:00 liliane CRON[380254]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:09:03.250878-05:00 liliane CRON[380254]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:15:03.316532-05:00 liliane CRON[384152]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:15:03.322086-05:00 liliane CRON[384152]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:17:02.573196-05:00 liliane CRON[385434]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:17:02.579169-05:00 liliane CRON[385434]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:25:03.003525-05:00 liliane CRON[390534]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:25:03.009123-05:00 liliane CRON[390534]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:35:02.896040-05:00 liliane CRON[396945]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:35:02.901088-05:00 liliane CRON[396945]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:39:02.621699-05:00 liliane CRON[399532]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:39:02.625173-05:00 liliane CRON[399532]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:45:03.566485-05:00 liliane CRON[403400]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:45:03.570809-05:00 liliane CRON[403400]: pam_unix(cron:session): session closed for user root
+2026-02-10T15:55:01.978086-05:00 liliane CRON[409782]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T15:55:01.983415-05:00 liliane CRON[409782]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:05:03.203593-05:00 liliane CRON[416252]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:05:03.209303-05:00 liliane CRON[416252]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:09:02.475326-05:00 liliane CRON[418825]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:09:02.478966-05:00 liliane CRON[418825]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:15:02.445730-05:00 liliane CRON[422713]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:15:02.449818-05:00 liliane CRON[422713]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:17:03.227783-05:00 liliane CRON[424022]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:17:03.232999-05:00 liliane CRON[424022]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:25:01.731736-05:00 liliane CRON[429163]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:25:01.736077-05:00 liliane CRON[429163]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:35:03.198340-05:00 liliane CRON[435623]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:35:03.203394-05:00 liliane CRON[435623]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:39:02.550783-05:00 liliane CRON[438215]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:39:02.554682-05:00 liliane CRON[438215]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:45:02.269061-05:00 liliane CRON[442151]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:45:02.274073-05:00 liliane CRON[442151]: pam_unix(cron:session): session closed for user root
+2026-02-10T16:55:02.945763-05:00 liliane CRON[448624]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T16:55:02.950136-05:00 liliane CRON[448624]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:05:02.946755-05:00 liliane CRON[455107]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:05:02.952213-05:00 liliane CRON[455107]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:09:02.487467-05:00 liliane CRON[457741]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:09:02.491564-05:00 liliane CRON[457741]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:15:02.945071-05:00 liliane CRON[461650]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:15:02.949981-05:00 liliane CRON[461650]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:17:02.907582-05:00 liliane CRON[462962]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:17:02.913733-05:00 liliane CRON[462962]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:25:02.089928-05:00 liliane CRON[468155]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:25:02.095232-05:00 liliane CRON[468155]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:35:01.916426-05:00 liliane CRON[474748]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:35:01.921168-05:00 liliane CRON[474748]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:39:01.929222-05:00 liliane CRON[477378]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:39:01.932910-05:00 liliane CRON[477378]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:45:01.941716-05:00 liliane CRON[481405]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:45:01.946535-05:00 liliane CRON[481405]: pam_unix(cron:session): session closed for user root
+2026-02-10T17:55:01.958683-05:00 liliane CRON[488023]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T17:55:01.964109-05:00 liliane CRON[488023]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:05:01.976083-05:00 liliane CRON[494593]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:05:01.981099-05:00 liliane CRON[494593]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:09:01.989883-05:00 liliane CRON[497263]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:09:01.993520-05:00 liliane CRON[497263]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:15:02.003037-05:00 liliane CRON[501265]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:15:02.008913-05:00 liliane CRON[501265]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:17:01.018570-05:00 liliane CRON[502564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:17:01.024480-05:00 liliane CRON[502564]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:25:01.036409-05:00 liliane CRON[507864]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:25:01.042389-05:00 liliane CRON[507864]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:35:01.053551-05:00 liliane CRON[514466]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:35:01.058265-05:00 liliane CRON[514466]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:39:01.068055-05:00 liliane CRON[517099]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:39:01.071282-05:00 liliane CRON[517099]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:45:01.081158-05:00 liliane CRON[521086]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:45:01.086726-05:00 liliane CRON[521086]: pam_unix(cron:session): session closed for user root
+2026-02-10T18:55:01.097150-05:00 liliane CRON[527708]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T18:55:01.102364-05:00 liliane CRON[527708]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:05:01.112681-05:00 liliane CRON[534318]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:05:01.118202-05:00 liliane CRON[534318]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:09:01.126321-05:00 liliane CRON[536950]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:09:01.129549-05:00 liliane CRON[536950]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:15:01.139742-05:00 liliane CRON[540988]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:15:01.145137-05:00 liliane CRON[540988]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:17:01.153196-05:00 liliane CRON[542309]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:17:01.157304-05:00 liliane CRON[542309]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:25:01.167182-05:00 liliane CRON[547611]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:25:01.172228-05:00 liliane CRON[547611]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:35:01.183331-05:00 liliane CRON[554260]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:35:01.187449-05:00 liliane CRON[554260]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:39:01.197115-05:00 liliane CRON[556880]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:39:01.199955-05:00 liliane CRON[556880]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:45:01.208647-05:00 liliane CRON[560877]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:45:01.213796-05:00 liliane CRON[560877]: pam_unix(cron:session): session closed for user root
+2026-02-10T19:55:01.224798-05:00 liliane CRON[567529]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T19:55:01.229142-05:00 liliane CRON[567529]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:05:01.241485-05:00 liliane CRON[574140]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:05:01.246544-05:00 liliane CRON[574140]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:09:01.255678-05:00 liliane CRON[576790]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:09:01.259973-05:00 liliane CRON[576790]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:15:01.269369-05:00 liliane CRON[580826]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:15:01.274045-05:00 liliane CRON[580826]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:17:01.282385-05:00 liliane CRON[582152]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:17:01.287356-05:00 liliane CRON[582152]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:25:01.298158-05:00 liliane CRON[587462]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:25:01.303355-05:00 liliane CRON[587462]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:35:01.313334-05:00 liliane CRON[594170]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:35:01.319068-05:00 liliane CRON[594170]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:39:01.327002-05:00 liliane CRON[596900]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:39:01.330176-05:00 liliane CRON[596900]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:45:01.340224-05:00 liliane CRON[600881]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:45:01.346233-05:00 liliane CRON[600881]: pam_unix(cron:session): session closed for user root
+2026-02-10T20:55:01.357724-05:00 liliane CRON[607574]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T20:55:01.363143-05:00 liliane CRON[607574]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:05:00.964968-05:00 liliane CRON[614524]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:05:00.969846-05:00 liliane CRON[614524]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:09:01.978699-05:00 liliane CRON[617132]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:09:01.981754-05:00 liliane CRON[617132]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:15:01.066106-05:00 liliane CRON[622138]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:15:01.072011-05:00 liliane CRON[622138]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:17:01.080943-05:00 liliane CRON[623452]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:17:01.086301-05:00 liliane CRON[623452]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:25:01.117882-05:00 liliane CRON[628788]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:25:01.122681-05:00 liliane CRON[628788]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:35:00.705896-05:00 liliane CRON[635557]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:35:00.711333-05:00 liliane CRON[635557]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:39:00.827209-05:00 liliane CRON[638201]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:39:00.830625-05:00 liliane CRON[638201]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:45:01.004120-05:00 liliane CRON[642280]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:45:01.009631-05:00 liliane CRON[642280]: pam_unix(cron:session): session closed for user root
+2026-02-10T21:55:00.457537-05:00 liliane CRON[649270]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T21:55:00.462845-05:00 liliane CRON[649270]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:05:00.472400-05:00 liliane CRON[656406]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:05:00.478313-05:00 liliane CRON[656406]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:09:00.349781-05:00 liliane CRON[659094]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:09:00.353682-05:00 liliane CRON[659094]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:15:00.151942-05:00 liliane CRON[663124]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:15:00.157680-05:00 liliane CRON[663124]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:17:00.437975-05:00 liliane CRON[664734]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:17:00.443606-05:00 liliane CRON[664734]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:25:01.835716-05:00 liliane CRON[670514]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:25:01.841103-05:00 liliane CRON[670514]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:35:00.132025-05:00 liliane CRON[677244]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:35:00.137323-05:00 liliane CRON[677244]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:39:02.006813-05:00 liliane CRON[680019]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:39:02.009946-05:00 liliane CRON[680019]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:45:00.426630-05:00 liliane CRON[684073]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:45:00.431064-05:00 liliane CRON[684073]: pam_unix(cron:session): session closed for user root
+2026-02-10T22:55:00.147175-05:00 liliane CRON[690796]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T22:55:00.152474-05:00 liliane CRON[690796]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:05:00.086779-05:00 liliane CRON[697612]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T23:05:00.090327-05:00 liliane CRON[697612]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:09:01.677604-05:00 liliane CRON[700435]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T23:09:01.680601-05:00 liliane CRON[700435]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:15:01.946865-05:00 liliane CRON[704516]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T23:15:01.950978-05:00 liliane CRON[704516]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:17:01.583825-05:00 liliane CRON[705875]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T23:17:01.590148-05:00 liliane CRON[705875]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:17:39.367578-05:00 liliane sudo:    lilia : TTY=pts/19 ; PWD=/home/lilia/web-portfolio ; USER=root ; COMMAND=/usr/bin/systemctl status nginx --no-pager -l
+2026-02-10T23:17:39.370731-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-10T23:17:39.498281-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-10T23:25:00.182230-05:00 liliane CRON[711290]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T23:25:00.186315-05:00 liliane CRON[711290]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:35:01.463425-05:00 liliane CRON[718491]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T23:35:01.468708-05:00 liliane CRON[718491]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:39:01.634217-05:00 liliane CRON[721163]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T23:39:01.637176-05:00 liliane CRON[721163]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:45:01.694762-05:00 liliane CRON[725316]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-10T23:45:01.700247-05:00 liliane CRON[725316]: pam_unix(cron:session): session closed for user root
+2026-02-10T23:50:34.330163-05:00 liliane systemd-logind[422]: The system will power off now!
+2026-02-10T23:50:34.484106-05:00 liliane systemd-logind[422]: System is powering down.
+2026-02-11T08:39:00.127171-05:00 liliane sshd[456]: Server listening on 0.0.0.0 port 22.
+2026-02-11T08:39:00.127183-05:00 liliane sshd[456]: Server listening on :: port 22.
+2026-02-11T08:39:00.203128-05:00 liliane systemd-logind[423]: New seat seat0.
+2026-02-11T08:39:02.768835-05:00 liliane CRON[972]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T08:39:02.775047-05:00 liliane CRON[972]: pam_unix(cron:session): session closed for user root
+2026-02-11T08:39:07.736234-05:00 liliane login[1534]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-02-11T08:39:07.736447-05:00 liliane login[1534]: PAM adding faulty module: pam_lastlog.so
+2026-02-11T08:39:07.739543-05:00 liliane login[1534]: pam_unix(login:session): session opened for user lilia(uid=1001) by lilia(uid=0)
+2026-02-11T08:39:07.788964-05:00 liliane systemd-logind[423]: New session 2 of user lilia.
+2026-02-11T08:39:07.878703-05:00 liliane (systemd): pam_unix(systemd-user:session): session opened for user lilia(uid=1001) by lilia(uid=0)
+2026-02-11T08:45:04.467128-05:00 liliane CRON[5159]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T08:45:04.474363-05:00 liliane CRON[5159]: pam_unix(cron:session): session closed for user root
+2026-02-11T08:50:01.213458-05:00 liliane polkitd[8971]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-11T08:50:01.213981-05:00 liliane polkitd[8971]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-11T08:50:01.217999-05:00 liliane polkitd[8971]: Finished loading, compiling and executing 4 rules
+2026-02-11T08:50:01.219130-05:00 liliane polkitd[8971]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-11T08:55:04.779017-05:00 liliane CRON[10456]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T08:55:04.784511-05:00 liliane CRON[10456]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:05:02.097376-05:00 liliane CRON[13367]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:05:02.158102-05:00 liliane CRON[13367]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:09:01.176045-05:00 liliane CRON[15513]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:09:01.179361-05:00 liliane CRON[15513]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:15:01.189390-05:00 liliane CRON[17762]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:15:01.194809-05:00 liliane CRON[17762]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:17:01.202027-05:00 liliane CRON[18453]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:17:01.210951-05:00 liliane CRON[18453]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:25:01.222836-05:00 liliane CRON[22746]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:25:01.227352-05:00 liliane CRON[22746]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:35:01.254980-05:00 liliane CRON[26564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:35:01.260906-05:00 liliane CRON[26564]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:39:01.269355-05:00 liliane CRON[28159]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:39:01.272726-05:00 liliane CRON[28159]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:45:01.281359-05:00 liliane CRON[31418]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:45:01.287467-05:00 liliane CRON[31418]: pam_unix(cron:session): session closed for user root
+2026-02-11T09:55:01.298705-05:00 liliane CRON[35867]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T09:55:01.303617-05:00 liliane CRON[35867]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:05:01.330395-05:00 liliane CRON[40078]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:05:01.337105-05:00 liliane CRON[40078]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:09:01.346800-05:00 liliane CRON[42106]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:09:01.350439-05:00 liliane CRON[42106]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:15:01.360014-05:00 liliane CRON[44900]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:15:01.364259-05:00 liliane CRON[44900]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:17:01.371373-05:00 liliane CRON[45721]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:17:01.379948-05:00 liliane CRON[45721]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:25:01.389789-05:00 liliane CRON[49423]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:25:01.394486-05:00 liliane CRON[49423]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:35:01.404584-05:00 liliane CRON[53988]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:35:01.409681-05:00 liliane CRON[53988]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:39:01.419181-05:00 liliane CRON[55704]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:39:01.422349-05:00 liliane CRON[55704]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:45:01.432467-05:00 liliane CRON[58365]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:45:01.436736-05:00 liliane CRON[58365]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:51:38.549394-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/systemctl stop nginx
+2026-02-11T10:51:38.554427-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T10:51:38.609705-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T10:55:01.448229-05:00 liliane CRON[63115]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T10:55:01.452604-05:00 liliane CRON[63115]: pam_unix(cron:session): session closed for user root
+2026-02-11T10:55:30.259385-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/systemctl disable nginx
+2026-02-11T10:55:30.264717-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T10:55:31.437071-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T10:55:37.784913-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/systemctl stop nginx
+2026-02-11T10:55:37.786556-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T10:55:37.857549-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:00:39.834886-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/systemctl stop nginx
+2026-02-11T11:00:39.840291-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T11:00:39.894474-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:00:48.386658-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/ss -ltnp
+2026-02-11T11:00:48.389067-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T11:00:48.422268-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:01:34.841050-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/systemctl disable --now nginx
+2026-02-11T11:01:34.842482-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T11:01:40.876685-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:01:40.887316-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/systemctl stop nginx
+2026-02-11T11:01:40.888561-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T11:01:40.903307-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:05:01.464061-05:00 liliane CRON[69337]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T11:05:01.469834-05:00 liliane CRON[69337]: pam_unix(cron:session): session closed for user root
+2026-02-11T11:05:37.820936-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/systemctl mask nginx
+2026-02-11T11:05:37.826292-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T11:05:38.167330-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:05:47.016958-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/systemctl stop nginx
+2026-02-11T11:05:47.018263-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T11:05:47.042526-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:06:49.275165-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/ss -ltnp
+2026-02-11T11:06:49.276064-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T11:06:49.304416-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:06:49.315829-05:00 liliane sudo:    lilia : TTY=pts/13 ; PWD=/home/lilia/portfolio/automation-scripts ; USER=root ; COMMAND=/usr/bin/lsof -i :80
+2026-02-11T11:06:49.317754-05:00 liliane sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-02-11T11:06:50.479671-05:00 liliane sudo: pam_unix(sudo:session): session closed for user root
+2026-02-11T11:09:01.000030-05:00 liliane CRON[71263]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-11T11:09:01.002436-05:00 liliane CRON[71263]: pam_unix(cron:session): session closed for user root

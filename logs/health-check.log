@@ -1,0 +1,133 @@
+[2026-02-11 09:20:28] === HEALTH CHECK START ===
+[2026-02-11 09:20:28] Service: nginx | Port: 80 | URL: http://localhost
+[2026-02-11 09:20:28] ✅ service is active: nginx
+[2026-02-11 09:20:28] ✅ port is listening: 80
+[2026-02-11 09:20:28] ✅ curl check passed: http://localhost
+[2026-02-11 09:20:28] === HEALTH CHECK END ===
+[2026-02-11 10:54:56] === HEALTH CHECK START ===
+[2026-02-11 10:54:56] Service: nginx | Port: 80 | URL: http://localhost
+[2026-02-11 10:54:56] ✅ service is active: nginx
+[2026-02-11 10:54:56] ✅ port is listening: 80
+[2026-02-11 10:54:56] ✅ curl check passed: http://localhost
+[2026-02-11 10:54:56] === HEALTH CHECK END ===
+[2026-02-11 10:56:57] === HEALTH CHECK START ===
+[2026-02-11 10:56:57] Service: nginx | Port: 80 | URL: http://localhost
+[2026-02-11 10:56:57] ✅ service is active: nginx
+[2026-02-11 10:56:57] ✅ port is listening: 80
+[2026-02-11 10:56:57] ✅ curl check passed: http://localhost
+[2026-02-11 10:56:57] === HEALTH CHECK END ===
+[2026-02-11 10:59:55] === HEALTH CHECK START ===
+[2026-02-11 10:59:55] Service: nginx | Port: 80 | URL: http://localhost
+[2026-02-11 10:59:55] ✅ service is active: nginx
+[2026-02-11 10:59:55] ✅ port is listening: 80
+[2026-02-11 10:59:55] ✅ curl check passed: http://localhost
+[2026-02-11 10:59:55] === HEALTH CHECK END ===
+[2026-02-11 11:01:28] === HEALTH CHECK START ===
+[2026-02-11 11:01:28] Service: nginx | Port: 80 | URL: http://localhost
+[2026-02-11 11:01:28] ✅ service is active: nginx
+[2026-02-11 11:01:28] ✅ port is listening: 80
+[2026-02-11 11:01:28] ✅ curl check passed: http://localhost
+[2026-02-11 11:01:28] === HEALTH CHECK END ===
+[2026-02-11 11:01:57] === HEALTH CHECK START ===
+[2026-02-11 11:01:57] Service: nginx | Port: 80 | URL: http://localhost
+[2026-02-11 11:01:57] ❌ service is NOT active: nginx
+○ nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; preset: enabled)
+     Active: inactive (dead)
+       Docs: man:nginx(8)
+
+Feb 11 10:56:08 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 10:56:08 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:00:39 liliane systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:00:39 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:00:39 liliane systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:01:13 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:13 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:01:35 liliane systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:40 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:01:40 liliane systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+[2026-02-11 11:01:57] ❌ port is NOT listening: 80
+Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess                            
+udp   UNCONN 0      0          127.0.0.54:53         0.0.0.0:*                                      
+udp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*                                      
+udp   UNCONN 0      0      10.255.255.254:53         0.0.0.0:*                                      
+udp   UNCONN 0      0           127.0.0.1:323        0.0.0.0:*                                      
+udp   UNCONN 0      0               [::1]:323           [::]:*                                      
+tcp   LISTEN 0      511         127.0.0.1:33927      0.0.0.0:*    users:(("node",pid=13435,fd=22))  
+tcp   LISTEN 0      5             0.0.0.0:8080       0.0.0.0:*    users:(("python3",pid=16572,fd=3))
+tcp   LISTEN 0      70          127.0.0.1:33060      0.0.0.0:*                                      
+tcp   LISTEN 0      4096       127.0.0.54:53         0.0.0.0:*                                      
+tcp   LISTEN 0      1000   10.255.255.254:53         0.0.0.0:*                                      
+tcp   LISTEN 0      151           0.0.0.0:3306       0.0.0.0:*                                      
+tcp   LISTEN 0      200         127.0.0.1:5432       0.0.0.0:*                                      
+tcp   LISTEN 0      511         127.0.0.1:4312       0.0.0.0:*    users:(("node",pid=20775,fd=33))  
+tcp   LISTEN 0      4096          0.0.0.0:22         0.0.0.0:*                                      
+tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*                                      
+tcp   LISTEN 0      50                  *:9999             *:*                                      
+tcp   LISTEN 0      4096             [::]:22            [::]:*                                      
+[2026-02-11 11:01:57] ❌ curl check failed: http://localhost
+* Host localhost:80 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:80...
+* connect to ::1 port 80 from ::1 port 56944 failed: Connection refused
+*   Trying 127.0.0.1:80...
+* connect to 127.0.0.1 port 80 from 127.0.0.1 port 56470 failed: Connection refused
+* Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+[2026-02-11 11:01:57] === HEALTH CHECK END ===
+[2026-02-11 11:10:01] === HEALTH CHECK START ===
+[2026-02-11 11:10:01] Service: nginx | Port: 80 | URL: http://localhost
+[2026-02-11 11:10:01] ❌ service is NOT active: nginx
+○ nginx.service
+     Loaded: masked (Reason: Unit nginx.service is masked.)
+     Active: inactive (dead)
+
+Feb 11 11:01:13 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:13 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:01:35 liliane systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:40 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:01:40 liliane systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:02:14 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:02:14 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:05:47 liliane systemd[1]: Stopping nginx.service...
+Feb 11 11:05:47 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:05:47 liliane systemd[1]: Stopped nginx.service.
+[2026-02-11 11:10:01] ❌ port is NOT listening: 80
+Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess                            
+udp   UNCONN 0      0          127.0.0.54:53         0.0.0.0:*                                      
+udp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*                                      
+udp   UNCONN 0      0      10.255.255.254:53         0.0.0.0:*                                      
+udp   UNCONN 0      0           127.0.0.1:323        0.0.0.0:*                                      
+udp   UNCONN 0      0               [::1]:323           [::]:*                                      
+tcp   LISTEN 0      511         127.0.0.1:33927      0.0.0.0:*    users:(("node",pid=13435,fd=22))  
+tcp   LISTEN 0      5             0.0.0.0:8080       0.0.0.0:*    users:(("python3",pid=16572,fd=3))
+tcp   LISTEN 0      70          127.0.0.1:33060      0.0.0.0:*                                      
+tcp   LISTEN 0      4096       127.0.0.54:53         0.0.0.0:*                                      
+tcp   LISTEN 0      1000   10.255.255.254:53         0.0.0.0:*                                      
+tcp   LISTEN 0      151           0.0.0.0:3306       0.0.0.0:*                                      
+tcp   LISTEN 0      200         127.0.0.1:5432       0.0.0.0:*                                      
+tcp   LISTEN 0      511         127.0.0.1:4312       0.0.0.0:*    users:(("node",pid=20775,fd=33))  
+tcp   LISTEN 0      4096          0.0.0.0:22         0.0.0.0:*                                      
+tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*                                      
+tcp   LISTEN 0      50                  *:9999             *:*                                      
+tcp   LISTEN 0      4096             [::]:22            [::]:*                                      
+[2026-02-11 11:10:01] ❌ curl check failed: http://localhost
+* Host localhost:80 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:80...
+* connect to ::1 port 80 from ::1 port 56288 failed: Connection refused
+*   Trying 127.0.0.1:80...
+* connect to 127.0.0.1 port 80 from 127.0.0.1 port 37338 failed: Connection refused
+* Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+[2026-02-11 11:10:01] === HEALTH CHECK END ===

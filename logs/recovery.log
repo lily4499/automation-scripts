@@ -1,0 +1,86 @@
+[2026-02-11 11:37:07] === SERVICE RECOVERY START ===
+[2026-02-11 11:37:07] Target service: nginx
+[2026-02-11 11:37:07] Current status (before):
+○ nginx.service
+     Loaded: masked (Reason: Unit nginx.service is masked.)
+     Active: inactive (dead)
+
+Feb 11 11:01:13 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:13 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:01:35 liliane systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:40 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:01:40 liliane systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:02:14 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:02:14 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:05:47 liliane systemd[1]: Stopping nginx.service...
+Feb 11 11:05:47 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:05:47 liliane systemd[1]: Stopped nginx.service.
+[2026-02-11 11:37:07] ❌ Service is down. Attempting start.
+Failed to restart nginx.service: Unit nginx.service is masked.
+Failed to restart nginx.service: Interactive authentication required.
+See system logs and 'systemctl status nginx.service' for details.
+[2026-02-11 11:37:09] ❌ Recovery failed: nginx is still not active
+○ nginx.service
+     Loaded: masked (Reason: Unit nginx.service is masked.)
+     Active: inactive (dead)
+
+Feb 11 11:01:13 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:13 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:01:35 liliane systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:40 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:01:40 liliane systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:02:14 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:02:14 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:05:47 liliane systemd[1]: Stopping nginx.service...
+Feb 11 11:05:47 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:05:47 liliane systemd[1]: Stopped nginx.service.
+-- No entries --
+[2026-02-11 11:38:08] === SERVICE RECOVERY START ===
+[2026-02-11 11:38:08] Target service: nginx
+[2026-02-11 11:38:08] Current status (before):
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2026-02-11 11:37:59 EST; 8s ago
+       Docs: man:nginx(8)
+    Process: 84399 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 84401 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 84402 (nginx)
+      Tasks: 7 (limit: 16762)
+     Memory: 4.4M (peak: 5.1M)
+        CPU: 26ms
+     CGroup: /system.slice/nginx.service
+             ├─84402 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─84403 "nginx: worker process"
+             ├─84404 "nginx: worker process"
+             ├─84405 "nginx: worker process"
+             ├─84406 "nginx: worker process"
+             ├─84408 "nginx: worker process"
+             └─84409 "nginx: worker process"
+
+Feb 11 11:37:59 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:37:59 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+[2026-02-11 11:38:08] ✅ Service already running. Doing a safe restart anyway.
+[2026-02-11 11:38:10] ✅ Recovery success: nginx is active
+[2026-02-11 11:38:10] Status (after):
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2026-02-11 11:38:08 EST; 2s ago
+       Docs: man:nginx(8)
+    Process: 84539 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 84541 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 84542 (nginx)
+      Tasks: 7 (limit: 16762)
+     Memory: 4.4M (peak: 4.9M)
+        CPU: 32ms
+     CGroup: /system.slice/nginx.service
+             ├─84542 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─84543 "nginx: worker process"
+             ├─84544 "nginx: worker process"
+             ├─84545 "nginx: worker process"
+             ├─84546 "nginx: worker process"
+             ├─84547 "nginx: worker process"
+             └─84548 "nginx: worker process"
+
+Feb 11 11:38:08 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:38:08 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+[2026-02-11 11:38:10] === SERVICE RECOVERY END ===

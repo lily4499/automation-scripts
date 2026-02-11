@@ -1,0 +1,500 @@
+2026-02-11T11:11:03.581532-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:11:03.697337-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:11:03.697422-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: Initializing new seelog logger
+2026-02-11T11:11:03.697482-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: New Seelog Logger Creation Complete
+2026-02-11T11:11:03.697499-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:03.6970 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:11:03.797198-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:03.6970 INFO Proxy environment variables:
+2026-02-11T11:11:03.903499-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:03.6970 INFO https_proxy:
+2026-02-11T11:11:04.003346-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:03.6970 INFO http_proxy:
+2026-02-11T11:11:04.105571-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:03.6970 INFO no_proxy:
+2026-02-11T11:11:04.210125-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:03.6970 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:04.312925-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:03.6974 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:05.058261-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 884.
+2026-02-11T11:11:05.081211-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:11:05.082137-05:00 liliane (kubelet)[72362]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:11:05.156736-05:00 liliane kubelet[72362]: E0211 11:11:05.156566   72362 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:11:05.165983-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:11:05.166192-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:11:06.841729-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:06.8406 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:06.841816-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: :
+2026-02-11T11:11:06.841833-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: #011status code: 0, request id:
+2026-02-11T11:11:06.841848-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: RequestError: send request failed
+2026-02-11T11:11:06.841865-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:06.941841-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:06.8406 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:07.042601-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:06.8406 ERROR Agent failed to assume any identity
+2026-02-11T11:11:07.143703-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:06.8406 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:07.342404-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:07.3420 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:07.443831-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:07.3420 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:10.444715-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:10.4439 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:10.444808-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: :
+2026-02-11T11:11:10.444829-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: #011status code: 0, request id:
+2026-02-11T11:11:10.444846-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: RequestError: send request failed
+2026-02-11T11:11:10.444866-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:10.544642-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:10.4441 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:10.645306-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:10.4441 ERROR Agent failed to assume any identity
+2026-02-11T11:11:10.746738-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:10.4441 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:10.944953-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:10.9444 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:11.045830-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:10.9445 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:14.047987-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:14.0469 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:14.048101-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: :
+2026-02-11T11:11:14.048199-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: #011status code: 0, request id:
+2026-02-11T11:11:14.048258-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: RequestError: send request failed
+2026-02-11T11:11:14.048279-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:14.048330-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:14.0470 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:14.048397-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:14.0470 ERROR Agent failed to assume any identity
+2026-02-11T11:11:14.048442-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:14.0470 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:11:14.048461-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72329]: 2026-02-11 11:11:14.0470 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:11:14.053129-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:11:14.306799-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 842.
+2026-02-11T11:11:14.328964-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:11:14.439467-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:11:14.439541-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: Initializing new seelog logger
+2026-02-11T11:11:14.439573-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: New Seelog Logger Creation Complete
+2026-02-11T11:11:14.439702-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:14.4393 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:11:14.540321-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:14.4394 INFO Proxy environment variables:
+2026-02-11T11:11:14.640172-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:14.4394 INFO https_proxy:
+2026-02-11T11:11:14.741884-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:14.4394 INFO http_proxy:
+2026-02-11T11:11:14.842050-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:14.4394 INFO no_proxy:
+2026-02-11T11:11:14.943821-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:14.4394 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:15.044990-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:14.4394 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:15.306469-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 885.
+2026-02-11T11:11:15.329534-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:11:15.330418-05:00 liliane (kubelet)[72434]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:11:15.404317-05:00 liliane kubelet[72434]: E0211 11:11:15.404126   72434 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:11:15.412941-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:11:15.413218-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:11:17.608542-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:17.6063 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:17.608608-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: :
+2026-02-11T11:11:17.608627-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: #011status code: 0, request id:
+2026-02-11T11:11:17.608645-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: RequestError: send request failed
+2026-02-11T11:11:17.608694-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:17.709085-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:17.6064 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:17.809893-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:17.6064 ERROR Agent failed to assume any identity
+2026-02-11T11:11:17.910924-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:17.6064 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:18.108088-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:18.1075 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:18.208996-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:18.1076 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:21.081628-05:00 liliane systemd[1]: Starting autoheal.service - Auto-heal health check for nginx...
+2026-02-11T11:11:21.102124-05:00 liliane autoheal: FAIL: nginx unhealthy -> restarting
+2026-02-11T11:11:21.109266-05:00 liliane systemctl[72465]: Failed to restart nginx.service: Unit nginx.service is masked.
+2026-02-11T11:11:21.247360-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:21.2467 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:21.247456-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: :
+2026-02-11T11:11:21.247475-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: #011status code: 0, request id:
+2026-02-11T11:11:21.247491-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: RequestError: send request failed
+2026-02-11T11:11:21.247541-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:21.347852-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:21.2467 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:21.448420-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:21.2468 ERROR Agent failed to assume any identity
+2026-02-11T11:11:21.549291-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:21.2468 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:21.747897-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:21.7474 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:21.848536-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:21.7475 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:22.129304-05:00 liliane autoheal: CRITICAL: nginx still unhealthy after restart
+2026-02-11T11:11:22.131806-05:00 liliane systemd[1]: autoheal.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+2026-02-11T11:11:22.132059-05:00 liliane systemd[1]: autoheal.service: Failed with result 'exit-code'.
+2026-02-11T11:11:22.132201-05:00 liliane systemd[1]: Failed to start autoheal.service - Auto-heal health check for nginx.
+2026-02-11T11:11:24.923414-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:24.9225 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:24.923970-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: :
+2026-02-11T11:11:24.924097-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: #011status code: 0, request id:
+2026-02-11T11:11:24.924121-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: RequestError: send request failed
+2026-02-11T11:11:24.924188-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:24.924247-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:24.9226 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:24.924321-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:24.9227 ERROR Agent failed to assume any identity
+2026-02-11T11:11:24.924344-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:24.9227 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:11:24.924440-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72401]: 2026-02-11 11:11:24.9227 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:11:24.928073-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:11:25.056700-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 843.
+2026-02-11T11:11:25.084951-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:11:25.193078-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:11:25.193170-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: Initializing new seelog logger
+2026-02-11T11:11:25.193203-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: New Seelog Logger Creation Complete
+2026-02-11T11:11:25.193457-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:25.1930 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:11:25.293541-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:25.1931 INFO Proxy environment variables:
+2026-02-11T11:11:25.393303-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:25.1931 INFO https_proxy:
+2026-02-11T11:11:25.493297-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:25.1931 INFO http_proxy:
+2026-02-11T11:11:25.556421-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 886.
+2026-02-11T11:11:25.594050-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:25.1931 INFO no_proxy:
+2026-02-11T11:11:25.597010-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:11:25.597644-05:00 liliane (kubelet)[72519]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:11:25.018364-05:00 liliane systemd-resolved[370]: Clock change detected. Flushing caches.
+2026-02-11T11:11:25.069745-05:00 liliane kubelet[72519]: E0211 11:11:25.069457   72519 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:11:25.076992-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:11:25.077678-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:11:25.098448-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:25.1931 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:25.199048-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:25.1931 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:27.727208-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:27.7262 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:27.727292-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: :
+2026-02-11T11:11:27.727309-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: #011status code: 0, request id:
+2026-02-11T11:11:27.727325-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: RequestError: send request failed
+2026-02-11T11:11:27.727343-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:27.827571-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:27.7263 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:27.928529-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:27.7263 ERROR Agent failed to assume any identity
+2026-02-11T11:11:28.029490-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:27.7263 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:28.227962-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:28.2273 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:28.328585-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:28.2275 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:31.379228-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:31.3784 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:31.379318-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: :
+2026-02-11T11:11:31.379364-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: #011status code: 0, request id:
+2026-02-11T11:11:31.379382-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: RequestError: send request failed
+2026-02-11T11:11:31.379443-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:31.479880-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:31.3785 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:31.580458-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:31.3785 ERROR Agent failed to assume any identity
+2026-02-11T11:11:31.681699-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:31.3785 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:31.879781-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:31.8793 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:31.980754-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:31.8794 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:35.033738-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:35.0326 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:35.033881-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: :
+2026-02-11T11:11:35.033902-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: #011status code: 0, request id:
+2026-02-11T11:11:35.033922-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: RequestError: send request failed
+2026-02-11T11:11:35.033942-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:35.033963-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:35.0327 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:35.033984-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:35.0328 ERROR Agent failed to assume any identity
+2026-02-11T11:11:35.034121-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:35.0328 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:11:35.034198-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72485]: 2026-02-11 11:11:35.0328 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:11:35.039991-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:11:35.209995-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 887.
+2026-02-11T11:11:35.210508-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 844.
+2026-02-11T11:11:35.237684-05:00 liliane (kubelet)[72590]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:11:35.237945-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:11:35.239345-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:11:35.304488-05:00 liliane kubelet[72590]: E0211 11:11:35.304069   72590 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:11:35.313158-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:11:35.313489-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:11:35.356462-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:11:35.356547-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: Initializing new seelog logger
+2026-02-11T11:11:35.356579-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: New Seelog Logger Creation Complete
+2026-02-11T11:11:35.357008-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:35.3564 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:11:35.457625-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:35.3565 INFO Proxy environment variables:
+2026-02-11T11:11:35.558968-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:35.3565 INFO http_proxy:
+2026-02-11T11:11:35.661399-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:35.3565 INFO no_proxy:
+2026-02-11T11:11:35.762474-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:35.3565 INFO https_proxy:
+2026-02-11T11:11:35.867112-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:35.3565 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:35.970658-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:35.3566 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:38.541969-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:38.5397 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:38.542182-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: :
+2026-02-11T11:11:38.542250-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: #011status code: 0, request id:
+2026-02-11T11:11:38.542270-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: RequestError: send request failed
+2026-02-11T11:11:38.542291-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:38.643435-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:38.5399 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:38.748451-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:38.5399 ERROR Agent failed to assume any identity
+2026-02-11T11:11:38.849608-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:38.5399 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:39.041846-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:39.0413 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:39.143245-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:39.0414 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:42.168840-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:42.1677 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:42.168964-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: :
+2026-02-11T11:11:42.168992-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: #011status code: 0, request id:
+2026-02-11T11:11:42.169016-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: RequestError: send request failed
+2026-02-11T11:11:42.169041-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:42.268964-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:42.1677 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:42.369310-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:42.1677 ERROR Agent failed to assume any identity
+2026-02-11T11:11:42.470206-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:42.1677 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:42.668944-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:42.6686 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:42.770551-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:42.6686 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:25.019657-05:00 liliane kernel: message repeated 2 times: [ systemd-journald[60]: Time jumped backwards, rotating.]
+2026-02-11T11:11:44.587680-05:00 liliane kernel: WSL (2 - init-systemd(Ubuntu-24.04)) WARNING: /etc/resolv.conf updating disabled in /etc/wsl.conf
+2026-02-11T11:11:45.460404-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 888.
+2026-02-11T11:11:45.492463-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:11:45.492808-05:00 liliane (kubelet)[72689]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:11:45.567462-05:00 liliane kubelet[72689]: E0211 11:11:45.567256   72689 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:11:45.575224-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:11:45.575621-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:11:45.801538-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:45.8004 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:45.801684-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: :
+2026-02-11T11:11:45.801734-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: #011status code: 0, request id:
+2026-02-11T11:11:45.801765-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: RequestError: send request failed
+2026-02-11T11:11:45.801798-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:45.801830-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:45.8005 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:45.801869-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:45.8006 ERROR Agent failed to assume any identity
+2026-02-11T11:11:45.801936-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:45.8006 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:11:45.801962-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72591]: 2026-02-11 11:11:45.8006 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:11:45.806367-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:11:45.961071-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 845.
+2026-02-11T11:11:45.985061-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:11:46.096330-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:11:46.096433-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: Initializing new seelog logger
+2026-02-11T11:11:46.096465-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: New Seelog Logger Creation Complete
+2026-02-11T11:11:46.096953-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:46.0962 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:11:46.197403-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:46.0965 INFO Proxy environment variables:
+2026-02-11T11:11:46.297145-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:46.0965 INFO https_proxy:
+2026-02-11T11:11:46.397659-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:46.0965 INFO http_proxy:
+2026-02-11T11:11:46.498132-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:46.0965 INFO no_proxy:
+2026-02-11T11:11:46.598650-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:46.0965 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:46.699898-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:46.0966 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:49.224069-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:49.2227 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:49.224313-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: :
+2026-02-11T11:11:49.224418-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: #011status code: 0, request id:
+2026-02-11T11:11:49.224439-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: RequestError: send request failed
+2026-02-11T11:11:49.224460-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:49.323964-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:49.2229 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:49.424464-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:49.2229 ERROR Agent failed to assume any identity
+2026-02-11T11:11:49.524765-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:49.2229 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:49.724442-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:49.7241 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:49.825361-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:49.7241 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:52.898159-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:52.8972 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:52.898297-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: :
+2026-02-11T11:11:52.898323-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: #011status code: 0, request id:
+2026-02-11T11:11:52.898341-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: RequestError: send request failed
+2026-02-11T11:11:52.898373-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:52.998222-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:52.8972 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:53.098814-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:52.8972 ERROR Agent failed to assume any identity
+2026-02-11T11:11:53.199398-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:52.8972 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:11:53.399066-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:53.3984 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:53.500394-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:53.3985 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:55.710418-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 889.
+2026-02-11T11:11:55.741033-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:11:55.741605-05:00 liliane (kubelet)[72767]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:11:55.817068-05:00 liliane kubelet[72767]: E0211 11:11:55.816892   72767 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:11:55.826267-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:11:55.826466-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:11:56.523420-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:56.5222 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:56.523542-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: :
+2026-02-11T11:11:56.523558-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: #011status code: 0, request id:
+2026-02-11T11:11:56.523574-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: RequestError: send request failed
+2026-02-11T11:11:56.523590-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:56.523662-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:56.5223 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:56.523691-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:56.5223 ERROR Agent failed to assume any identity
+2026-02-11T11:11:56.523714-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:56.5223 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:11:56.523790-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72701]: 2026-02-11 11:11:56.5223 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:11:56.527990-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:11:56.710236-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 846.
+2026-02-11T11:11:56.756657-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:11:56.864508-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:11:56.864734-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: Initializing new seelog logger
+2026-02-11T11:11:56.864818-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: New Seelog Logger Creation Complete
+2026-02-11T11:11:56.864834-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:56.8641 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:11:56.964136-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:56.8642 INFO Proxy environment variables:
+2026-02-11T11:11:57.064125-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:56.8642 INFO https_proxy:
+2026-02-11T11:11:57.164248-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:56.8642 INFO http_proxy:
+2026-02-11T11:11:57.265160-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:56.8642 INFO no_proxy:
+2026-02-11T11:11:56.843223-05:00 liliane systemd-resolved[370]: Clock change detected. Flushing caches.
+2026-02-11T11:11:56.846508-05:00 liliane kernel: systemd-journald[60]: Time jumped backwards, rotating.
+2026-02-11T11:11:56.904799-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:56.8642 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:11:57.005385-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:56.8643 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:11:57.305114-05:00 liliane wsl-pro-service[432]: #033[36mINFO#033[0m Daemon: connecting to Windows Agent
+2026-02-11T11:11:57.305397-05:00 liliane wsl-pro-service[432]: #033[37mDEBUG#033[0m Updated systemd status to "Connecting"
+2026-02-11T11:11:57.305520-05:00 liliane wsl-pro-service[432]: #033[33mWARNING#033[0m Daemon: could not connect to Windows Agent: could not get address: could not read agent port file "/mnt/c/Users/lilia/.ubuntupro/.address": open /mnt/c/Users/lilia/.ubuntupro/.address: no such file or directory
+2026-02-11T11:11:57.305581-05:00 liliane wsl-pro-service[432]: #033[36mINFO#033[0m Reconnecting to Windows host in 60 seconds
+2026-02-11T11:11:57.305674-05:00 liliane wsl-pro-service[432]: #033[37mDEBUG#033[0m Updated systemd status to "Not connected: waiting to retry"
+2026-02-11T11:11:59.542291-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:59.5415 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:11:59.542460-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: :
+2026-02-11T11:11:59.542484-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: #011status code: 0, request id:
+2026-02-11T11:11:59.542547-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: RequestError: send request failed
+2026-02-11T11:11:59.542606-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:11:59.642444-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:59.5415 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:11:59.743409-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:59.5415 ERROR Agent failed to assume any identity
+2026-02-11T11:11:59.844604-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:11:59.5415 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:00.042865-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:00.0424 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:00.143754-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:00.0425 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:03.202254-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:03.2012 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:03.202483-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: :
+2026-02-11T11:12:03.202541-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: #011status code: 0, request id:
+2026-02-11T11:12:03.202565-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: RequestError: send request failed
+2026-02-11T11:12:03.202585-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:03.301806-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:03.2013 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:03.402799-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:03.2013 ERROR Agent failed to assume any identity
+2026-02-11T11:12:03.503739-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:03.2013 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:03.703180-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:03.7026 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:03.804068-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:03.7026 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:05.498802-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 890.
+2026-02-11T11:12:05.524136-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:12:05.524877-05:00 liliane (kubelet)[72840]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:12:05.588252-05:00 liliane kubelet[72840]: E0211 11:12:05.588090   72840 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:12:05.596779-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:12:05.596997-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:12:06.838633-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:06.8374 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:06.838817-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: :
+2026-02-11T11:12:06.839039-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: #011status code: 0, request id:
+2026-02-11T11:12:06.839166-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: RequestError: send request failed
+2026-02-11T11:12:06.839292-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:06.839417-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:06.8375 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:06.839607-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:06.8375 ERROR Agent failed to assume any identity
+2026-02-11T11:12:06.839666-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:06.8375 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:12:06.839708-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72780]: 2026-02-11 11:12:06.8375 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:12:06.844152-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:12:07.001700-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 847.
+2026-02-11T11:12:07.043890-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:12:07.158882-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:12:07.158965-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: Initializing new seelog logger
+2026-02-11T11:12:07.158996-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: New Seelog Logger Creation Complete
+2026-02-11T11:12:07.159667-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:07.1589 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:12:07.259773-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:07.1590 INFO Proxy environment variables:
+2026-02-11T11:12:07.361704-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:07.1590 INFO https_proxy:
+2026-02-11T11:12:07.461962-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:07.1590 INFO http_proxy:
+2026-02-11T11:12:07.562688-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:07.1590 INFO no_proxy:
+2026-02-11T11:12:07.663205-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:07.1590 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:07.763998-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:07.1590 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:10.315331-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:10.3136 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:10.315459-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: :
+2026-02-11T11:12:10.315489-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: #011status code: 0, request id:
+2026-02-11T11:12:10.315508-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: RequestError: send request failed
+2026-02-11T11:12:10.315528-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:10.416654-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:10.3137 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:10.516828-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:10.3137 ERROR Agent failed to assume any identity
+2026-02-11T11:12:10.617744-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:10.3137 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:10.815050-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:10.8146 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:10.915883-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:10.8148 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:13.986356-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:13.9855 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:13.986482-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: :
+2026-02-11T11:12:13.986509-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: #011status code: 0, request id:
+2026-02-11T11:12:13.986525-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: RequestError: send request failed
+2026-02-11T11:12:13.986541-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:14.086089-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:13.9856 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:14.186555-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:13.9856 ERROR Agent failed to assume any identity
+2026-02-11T11:12:14.286906-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:13.9856 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:14.486724-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:14.4861 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:14.588172-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:14.4862 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:15.748371-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 891.
+2026-02-11T11:12:15.787734-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:12:15.788123-05:00 liliane (kubelet)[72913]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:12:15.856721-05:00 liliane kubelet[72913]: E0211 11:12:15.856500   72913 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:12:15.864283-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:12:15.864757-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:12:17.595272-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:17.5940 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:17.595402-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: :
+2026-02-11T11:12:17.595423-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: #011status code: 0, request id:
+2026-02-11T11:12:17.595445-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: RequestError: send request failed
+2026-02-11T11:12:17.595502-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:17.595521-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:17.5941 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:17.595548-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:17.5942 ERROR Agent failed to assume any identity
+2026-02-11T11:12:17.595606-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:17.5942 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:12:17.595671-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72858]: 2026-02-11 11:12:17.5942 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:12:17.599976-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:12:17.748362-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 848.
+2026-02-11T11:12:17.775752-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:12:17.886459-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:12:17.886662-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: Initializing new seelog logger
+2026-02-11T11:12:17.886797-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: New Seelog Logger Creation Complete
+2026-02-11T11:12:17.887069-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:17.8863 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:12:17.987994-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:17.8866 INFO Proxy environment variables:
+2026-02-11T11:12:18.088902-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:17.8866 INFO https_proxy:
+2026-02-11T11:12:18.188916-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:17.8866 INFO http_proxy:
+2026-02-11T11:12:18.289381-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:17.8866 INFO no_proxy:
+2026-02-11T11:12:18.390894-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:17.8866 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:18.491494-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:17.8867 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:21.035497-05:00 liliane systemd[1]: Starting autoheal.service - Auto-heal health check for nginx...
+2026-02-11T11:12:21.048344-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:21.0463 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:21.048753-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: :
+2026-02-11T11:12:21.048875-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: #011status code: 0, request id:
+2026-02-11T11:12:21.048932-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: RequestError: send request failed
+2026-02-11T11:12:21.049056-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:21.057524-05:00 liliane autoheal: FAIL: nginx unhealthy -> restarting
+2026-02-11T11:12:21.065110-05:00 liliane systemctl[72997]: Failed to restart nginx.service: Unit nginx.service is masked.
+2026-02-11T11:12:21.148119-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:21.0466 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:21.248298-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:21.0466 ERROR Agent failed to assume any identity
+2026-02-11T11:12:21.349216-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:21.0466 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:21.547759-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:21.5474 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:21.648580-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:21.5476 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:22.088141-05:00 liliane autoheal: CRITICAL: nginx still unhealthy after restart
+2026-02-11T11:12:22.091394-05:00 liliane systemd[1]: autoheal.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+2026-02-11T11:12:22.091537-05:00 liliane systemd[1]: autoheal.service: Failed with result 'exit-code'.
+2026-02-11T11:12:22.091613-05:00 liliane systemd[1]: Failed to start autoheal.service - Auto-heal health check for nginx.
+2026-02-11T11:12:24.688484-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:24.6876 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:24.688596-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: :
+2026-02-11T11:12:24.688616-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: #011status code: 0, request id:
+2026-02-11T11:12:24.688633-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: RequestError: send request failed
+2026-02-11T11:12:24.688652-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:24.789242-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:24.6877 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:24.889819-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:24.6877 ERROR Agent failed to assume any identity
+2026-02-11T11:12:24.991145-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:24.6877 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:25.189444-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:25.1888 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:25.290177-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:25.1889 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:25.999767-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 892.
+2026-02-11T11:12:26.015587-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:12:26.016180-05:00 liliane (kubelet)[73068]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:12:26.088310-05:00 liliane kubelet[73068]: E0211 11:12:26.088080   73068 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:12:26.096513-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:12:26.097022-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:12:28.367865-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:28.3671 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:28.368352-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: :
+2026-02-11T11:12:28.368409-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: #011status code: 0, request id:
+2026-02-11T11:12:28.368429-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: RequestError: send request failed
+2026-02-11T11:12:28.368449-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:28.368467-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:28.3671 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:28.368500-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:28.3671 ERROR Agent failed to assume any identity
+2026-02-11T11:12:28.368564-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:28.3671 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:12:28.368632-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[72931]: 2026-02-11 11:12:28.3671 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:12:28.373131-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:12:28.498969-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 849.
+2026-02-11T11:12:28.527111-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:12:28.635312-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:12:28.635394-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: Initializing new seelog logger
+2026-02-11T11:12:28.635423-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: New Seelog Logger Creation Complete
+2026-02-11T11:12:28.635632-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:28.6352 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:12:28.735224-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:28.6353 INFO Proxy environment variables:
+2026-02-11T11:12:28.834823-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:28.6353 INFO https_proxy:
+2026-02-11T11:12:28.934939-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:28.6353 INFO http_proxy:
+2026-02-11T11:12:29.034710-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:28.6353 INFO no_proxy:
+2026-02-11T11:12:28.604240-05:00 liliane systemd-resolved[370]: Clock change detected. Flushing caches.
+2026-02-11T11:12:28.653142-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:28.6353 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:28.744960-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:28.6353 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:31.296021-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:31.2947 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:31.296179-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: :
+2026-02-11T11:12:31.296226-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: #011status code: 0, request id:
+2026-02-11T11:12:31.296283-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: RequestError: send request failed
+2026-02-11T11:12:31.296306-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:31.395494-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:31.2947 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:31.496213-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:31.2947 ERROR Agent failed to assume any identity
+2026-02-11T11:12:31.597387-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:31.2947 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:31.796088-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:31.7956 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:31.897160-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:31.7957 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:34.960296-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:34.9592 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:34.960449-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: :
+2026-02-11T11:12:34.960491-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: #011status code: 0, request id:
+2026-02-11T11:12:34.960602-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: RequestError: send request failed
+2026-02-11T11:12:34.960718-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:35.059974-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:34.9592 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:35.160599-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:34.9592 ERROR Agent failed to assume any identity
+2026-02-11T11:12:35.261215-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:34.9592 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:35.460300-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:35.4599 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:35.561229-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:35.4600 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:35.756892-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 893.
+2026-02-11T11:12:35.775871-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:12:35.776401-05:00 liliane (kubelet)[73188]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:12:35.849334-05:00 liliane kubelet[73188]: E0211 11:12:35.849038   73188 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:12:35.857884-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:12:35.858395-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:12:38.614812-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:38.6137 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:38.614973-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: :
+2026-02-11T11:12:38.615038-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: #011status code: 0, request id:
+2026-02-11T11:12:38.615058-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: RequestError: send request failed
+2026-02-11T11:12:38.615079-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:38.615098-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:38.6137 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:38.615117-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:38.6138 ERROR Agent failed to assume any identity
+2026-02-11T11:12:38.615137-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:38.6138 ERROR failed to get identity: failed to find agent identity
+2026-02-11T11:12:38.615181-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73086]: 2026-02-11 11:12:38.6138 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2026-02-11T11:12:38.620219-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2026-02-11T11:12:38.759300-05:00 liliane systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 850.
+2026-02-11T11:12:38.780846-05:00 liliane systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-02-11T11:12:38.899416-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-02-11T11:12:38.899499-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: Initializing new seelog logger
+2026-02-11T11:12:38.899570-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: New Seelog Logger Creation Complete
+2026-02-11T11:12:38.900039-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:38.8992 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-02-11T11:12:39.000579-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:38.8993 INFO Proxy environment variables:
+2026-02-11T11:12:39.106224-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:38.8993 INFO https_proxy:
+2026-02-11T11:12:39.210115-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:38.8993 INFO http_proxy:
+2026-02-11T11:12:39.316115-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:38.8993 INFO no_proxy:
+2026-02-11T11:12:39.416312-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:38.8993 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:39.520440-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:38.8993 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:42.026289-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:42.0251 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:42.026390-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: caused by: :
+2026-02-11T11:12:42.026410-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: #011status code: 0, request id:
+2026-02-11T11:12:42.026430-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: caused by: RequestError: send request failed
+2026-02-11T11:12:42.026450-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:42.127976-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:42.0252 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:42.229267-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:42.0252 ERROR Agent failed to assume any identity
+2026-02-11T11:12:42.331683-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:42.0253 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:42.526698-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:42.5261 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:42.629505-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:42.5266 INFO Checking if agent identity type EC2 can be assumed
+2026-02-11T11:12:45.700170-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:45.6990 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2026-02-11T11:12:45.700320-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: caused by: :
+2026-02-11T11:12:45.700364-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: #011status code: 0, request id:
+2026-02-11T11:12:45.700482-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: caused by: RequestError: send request failed
+2026-02-11T11:12:45.700593-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-02-11T11:12:45.800292-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:45.6991 INFO Checking if agent identity type CustomIdentity can be assumed
+2026-02-11T11:12:45.900385-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:45.6991 ERROR Agent failed to assume any identity
+2026-02-11T11:12:46.001300-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:45.6991 ERROR failed to find identity, retrying: failed to find agent identity
+2026-02-11T11:12:46.008108-05:00 liliane systemd[1]: kubelet.service: Scheduled restart job, restart counter is at 894.
+2026-02-11T11:12:46.032359-05:00 liliane systemd[1]: Started kubelet.service - kubelet: The Kubernetes Node Agent.
+2026-02-11T11:12:46.033093-05:00 liliane (kubelet)[73262]: kubelet.service: Referenced but unset environment variable evaluates to an empty string: KUBELET_KUBEADM_ARGS
+2026-02-11T11:12:46.103020-05:00 liliane kubelet[73262]: E0211 11:12:46.102627   73262 run.go:74] "command failed" err="failed to load kubelet config file, path: /var/lib/kubelet/config.yaml, error: failed to load Kubelet config file /var/lib/kubelet/config.yaml, error failed to read kubelet config file \"/var/lib/kubelet/config.yaml\", error: open /var/lib/kubelet/config.yaml: no such file or directory"
+2026-02-11T11:12:46.110123-05:00 liliane systemd[1]: kubelet.service: Main process exited, code=exited, status=1/FAILURE
+2026-02-11T11:12:46.110537-05:00 liliane systemd[1]: kubelet.service: Failed with result 'exit-code'.
+2026-02-11T11:12:46.199764-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:46.1992 INFO Checking if agent identity type OnPrem can be assumed
+2026-02-11T11:12:46.300970-05:00 liliane amazon-ssm-agent.amazon-ssm-agent[73213]: 2026-02-11 11:12:46.1994 INFO Checking if agent identity type EC2 can be assumed

@@ -1,0 +1,14 @@
+○ nginx.service
+     Loaded: masked (Reason: Unit nginx.service is masked.)
+     Active: inactive (dead)
+
+Feb 11 11:01:13 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:13 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:01:35 liliane systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:01:40 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:01:40 liliane systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:02:14 liliane systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 11 11:02:14 liliane systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 11 11:05:47 liliane systemd[1]: Stopping nginx.service...
+Feb 11 11:05:47 liliane systemd[1]: nginx.service: Deactivated successfully.
+Feb 11 11:05:47 liliane systemd[1]: Stopped nginx.service.

@@ -1,0 +1,14 @@
+[2026-02-11 11:47:29] === BACKUP START ===
+[2026-02-11 11:47:29] Source: /etc/nginx
+[2026-02-11 11:47:29] Output: ./backups/nginx-20260211-114729.tar.gz
+tar: Removing leading `/' from member names
+[2026-02-11 11:47:29] ✅ Backup created successfully: ./backups/nginx-20260211-114729.tar.gz
+-rw-r--r-- 1 lilia lilia 6.7K Feb 11 11:47 ./backups/nginx-20260211-114729.tar.gz
+[2026-02-11 11:47:29] === BACKUP END ===
+[2026-02-11 11:49:29] === BACKUP START ===
+[2026-02-11 11:49:29] Source: /etc/nginx
+[2026-02-11 11:49:29] Output: ./backups/nginx-20260211-114929.tar.gz
+tar: Removing leading `/' from member names
+[2026-02-11 11:49:29] ✅ Backup created successfully: ./backups/nginx-20260211-114929.tar.gz
+-rw-r--r-- 1 lilia lilia 6.7K Feb 11 11:49 ./backups/nginx-20260211-114929.tar.gz
+[2026-02-11 11:49:29] === BACKUP END ===

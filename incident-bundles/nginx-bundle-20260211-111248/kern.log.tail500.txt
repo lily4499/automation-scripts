@@ -1,0 +1,500 @@
+2026-02-09T21:59:27.428126-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:00:22.959604-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:01:20.740692-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:02:16.175373-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:03:11.770068-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:04:35.096478-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:05:30.566782-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:06:26.137283-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:07:23.900046-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:09:14.890838-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:10:10.433581-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:11:05.896730-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:12:01.445768-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:12:56.920123-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:14:22.328879-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:15:17.831870-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:16:13.294629-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:17:08.777283-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:18:59.680511-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:19:55.103772-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:20:52.844978-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:21:48.276839-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:22:43.683818-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:24:06.770583-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:25:02.199880-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:25:57.581832-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:26:52.986568-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:28:46.059871-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:29:41.442932-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:30:36.788252-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:31:32.088057-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:32:27.407765-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:33:52.850679-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:34:48.179791-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:35:43.573486-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:36:38.792986-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:38:29.581570-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:39:26.243591-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:40:21.675874-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:41:17.165499-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T22:42:12.595943-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-09T23:12:48.067312-05:00 liliane kernel: hv_utils: TimeSync IC version 4.0
+2026-02-10T08:29:45.869990-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-10T12:00:18.011816-05:00 liliane kernel: message repeated 179 times: [ mini_init (187): drop_caches: 1]
+2026-02-10T12:01:52.537783-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-10T12:03:58.517062-05:00 liliane kernel: message repeated 2 times: [ mini_init (187): drop_caches: 1]
+2026-02-10T14:25:58.219903-05:00 liliane kernel: Adjusting tsc more than 11% (7017644 vs 8884889)
+2026-02-11T08:39:00.085976-05:00 liliane kernel: Linux version 6.6.87.2-microsoft-standard-WSL2 (root@439a258ad544) (gcc (GCC) 11.2.0, GNU ld (GNU Binutils) 2.37) #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-02-11T08:39:00.119609-05:00 liliane kernel: Command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=6 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+2026-02-11T08:39:00.119612-05:00 liliane kernel: KERNEL supported cpus:
+2026-02-11T08:39:00.119613-05:00 liliane kernel:   Intel GenuineIntel
+2026-02-11T08:39:00.119613-05:00 liliane kernel:   AMD AuthenticAMD
+2026-02-11T08:39:00.119614-05:00 liliane kernel: BIOS-provided physical RAM map:
+2026-02-11T08:39:00.119614-05:00 liliane kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+2026-02-11T08:39:00.119619-05:00 liliane kernel: BIOS-e820: [mem 0x00000000000e0000-0x00000000000e0fff] reserved
+2026-02-11T08:39:00.119619-05:00 liliane kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000001fffff] ACPI data
+2026-02-11T08:39:00.119620-05:00 liliane kernel: BIOS-e820: [mem 0x0000000000200000-0x00000000f7ffffff] usable
+2026-02-11T08:39:00.119621-05:00 liliane kernel: BIOS-e820: [mem 0x0000000100000000-0x0000000387ffffff] usable
+2026-02-11T08:39:00.119621-05:00 liliane kernel: NX (Execute Disable) protection: active
+2026-02-11T08:39:00.119622-05:00 liliane kernel: APIC: Static calls initialized
+2026-02-11T08:39:00.119622-05:00 liliane kernel: DMI not present or invalid.
+2026-02-11T08:39:00.119626-05:00 liliane kernel: Hypervisor detected: Microsoft Hyper-V
+2026-02-11T08:39:00.119627-05:00 liliane kernel: Hyper-V: privilege flags low 0xae7f, high 0x3b8030, hints 0x900c2c, misc 0xe0bed7b6
+2026-02-11T08:39:00.119627-05:00 liliane kernel: Hyper-V: Nested features: 0x4a0000
+2026-02-11T08:39:00.119628-05:00 liliane kernel: Hyper-V: LAPIC Timer Frequency: 0xc3500
+2026-02-11T08:39:00.119628-05:00 liliane kernel: Hyper-V: Using hypercall for remote TLB flush
+2026-02-11T08:39:00.119629-05:00 liliane kernel: clocksource: hyperv_clocksource_tsc_page: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+2026-02-11T08:39:00.119633-05:00 liliane kernel: clocksource: hyperv_clocksource_msr: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+2026-02-11T08:39:00.119634-05:00 liliane kernel: tsc: Detected 2095.998 MHz processor
+2026-02-11T08:39:00.119634-05:00 liliane kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2026-02-11T08:39:00.119634-05:00 liliane kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2026-02-11T08:39:00.119635-05:00 liliane kernel: last_pfn = 0x388000 max_arch_pfn = 0x400000000
+2026-02-11T08:39:00.119635-05:00 liliane kernel: MTRR map: 5 entries (4 fixed + 1 variable; max 20), built from 8 variable MTRRs
+2026-02-11T08:39:00.119639-05:00 liliane kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2026-02-11T08:39:00.119640-05:00 liliane kernel: last_pfn = 0xf8000 max_arch_pfn = 0x400000000
+2026-02-11T08:39:00.119641-05:00 liliane kernel: Using GB pages for direct mapping
+2026-02-11T08:39:00.119641-05:00 liliane kernel: RAMDISK: [mem 0x04be4000-0x04e8bfff]
+2026-02-11T08:39:00.119642-05:00 liliane kernel: ACPI: Early table checksum verification disabled
+2026-02-11T08:39:00.119642-05:00 liliane kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VRTUAL)
+2026-02-11T08:39:00.119646-05:00 liliane kernel: ACPI: XSDT 0x0000000000100000 000044 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+2026-02-11T08:39:00.119646-05:00 liliane kernel: ACPI: FACP 0x0000000000101000 000114 (v06 VRTUAL MICROSFT 00000001 MSFT 00000001)
+2026-02-11T08:39:00.119647-05:00 liliane kernel: ACPI: DSDT 0x00000000001011B8 01E11C (v02 MSFTVM DSDT01   00000001 INTL 20230628)
+2026-02-11T08:39:00.119647-05:00 liliane kernel: ACPI: FACS 0x0000000000101114 000040
+2026-02-11T08:39:00.119648-05:00 liliane kernel: ACPI: OEM0 0x0000000000101154 000064 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+2026-02-11T08:39:00.119649-05:00 liliane kernel: ACPI: SRAT 0x000000000011F2D4 000310 (v02 VRTUAL MICROSFT 00000001 MSFT 00000001)
+2026-02-11T08:39:00.119649-05:00 liliane kernel: ACPI: APIC 0x000000000011F5E4 000078 (v04 VRTUAL MICROSFT 00000001 MSFT 00000001)
+2026-02-11T08:39:00.119653-05:00 liliane kernel: ACPI: Reserving FACP table memory at [mem 0x101000-0x101113]
+2026-02-11T08:39:00.119654-05:00 liliane kernel: ACPI: Reserving DSDT table memory at [mem 0x1011b8-0x11f2d3]
+2026-02-11T08:39:00.119654-05:00 liliane kernel: ACPI: Reserving FACS table memory at [mem 0x101114-0x101153]
+2026-02-11T08:39:00.119655-05:00 liliane kernel: ACPI: Reserving OEM0 table memory at [mem 0x101154-0x1011b7]
+2026-02-11T08:39:00.119655-05:00 liliane kernel: ACPI: Reserving SRAT table memory at [mem 0x11f2d4-0x11f5e3]
+2026-02-11T08:39:00.119656-05:00 liliane kernel: ACPI: Reserving APIC table memory at [mem 0x11f5e4-0x11f65b]
+2026-02-11T08:39:00.119660-05:00 liliane kernel: SRAT: PXM 0 -> APIC 0x00 -> Node 0
+2026-02-11T08:39:00.119660-05:00 liliane kernel: SRAT: PXM 0 -> APIC 0x01 -> Node 0
+2026-02-11T08:39:00.119661-05:00 liliane kernel: SRAT: PXM 0 -> APIC 0x02 -> Node 0
+2026-02-11T08:39:00.119661-05:00 liliane kernel: SRAT: PXM 0 -> APIC 0x03 -> Node 0
+2026-02-11T08:39:00.119662-05:00 liliane kernel: SRAT: PXM 0 -> APIC 0x04 -> Node 0
+2026-02-11T08:39:00.119662-05:00 liliane kernel: SRAT: PXM 0 -> APIC 0x05 -> Node 0
+2026-02-11T08:39:00.119663-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0xf7ffffff] hotplug
+2026-02-11T08:39:00.119667-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x387ffffff] hotplug
+2026-02-11T08:39:00.119668-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x388000000-0x9ffdfffff] hotplug
+2026-02-11T08:39:00.119668-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1000000000-0xfcffffffff] hotplug
+2026-02-11T08:39:00.119669-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x10000000000-0x1ffffffffff] hotplug
+2026-02-11T08:39:00.119670-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x20000000000-0x3ffffffffff] hotplug
+2026-02-11T08:39:00.119670-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x40000000000-0x7ffffffffff] hotplug
+2026-02-11T08:39:00.119674-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x80000000000-0xfffffffffff] hotplug
+2026-02-11T08:39:00.119674-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000000-0x1fffffffffff] hotplug
+2026-02-11T08:39:00.119675-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x200000000000-0x3fffffffffff] hotplug
+2026-02-11T08:39:00.119676-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x400000000000-0x7fffffffffff] hotplug
+2026-02-11T08:39:00.119676-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x800000000000-0xffffffffffff] hotplug
+2026-02-11T08:39:00.119677-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1000000000000-0x1ffffffffffff] hotplug
+2026-02-11T08:39:00.119680-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x2000000000000-0x3ffffffffffff] hotplug
+2026-02-11T08:39:00.119681-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x4000000000000-0x7ffffffffffff] hotplug
+2026-02-11T08:39:00.119682-05:00 liliane kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x8000000000000-0xfffffffffffff] hotplug
+2026-02-11T08:39:00.119682-05:00 liliane kernel: NUMA: Node 0 [mem 0x00000000-0xf7ffffff] + [mem 0x100000000-0x387ffffff] -> [mem 0x00000000-0x387ffffff]
+2026-02-11T08:39:00.119683-05:00 liliane kernel: NODE_DATA(0) allocated [mem 0x387fde000-0x387ffffff]
+2026-02-11T08:39:00.119683-05:00 liliane kernel: Zone ranges:
+2026-02-11T08:39:00.119684-05:00 liliane kernel:   DMA32    [mem 0x0000000000001000-0x00000000ffffffff]
+2026-02-11T08:39:00.119693-05:00 liliane kernel:   Normal   [mem 0x0000000100000000-0x0000000387ffffff]
+2026-02-11T08:39:00.119694-05:00 liliane kernel:   Device   empty
+2026-02-11T08:39:00.119694-05:00 liliane kernel: Movable zone start for each node
+2026-02-11T08:39:00.119695-05:00 liliane kernel: Early memory node ranges
+2026-02-11T08:39:00.119695-05:00 liliane kernel:   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+2026-02-11T08:39:00.119696-05:00 liliane kernel:   node   0: [mem 0x0000000000200000-0x00000000f7ffffff]
+2026-02-11T08:39:00.119701-05:00 liliane kernel:   node   0: [mem 0x0000000100000000-0x0000000387ffffff]
+2026-02-11T08:39:00.119701-05:00 liliane kernel: Initmem setup node 0 [mem 0x0000000000001000-0x0000000387ffffff]
+2026-02-11T08:39:00.119702-05:00 liliane kernel: On node 0, zone DMA32: 1 pages in unavailable ranges
+2026-02-11T08:39:00.119702-05:00 liliane kernel: On node 0, zone DMA32: 352 pages in unavailable ranges
+2026-02-11T08:39:00.119703-05:00 liliane kernel: ACPI: PM-Timer IO Port: 0x408
+2026-02-11T08:39:00.119703-05:00 liliane kernel: ACPI: LAPIC_NMI (acpi_id[0x01] dfl dfl lint[0x1])
+2026-02-11T08:39:00.119707-05:00 liliane kernel: IOAPIC[0]: apic_id 6, version 17, address 0xfec00000, GSI 0-23
+2026-02-11T08:39:00.119708-05:00 liliane kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+2026-02-11T08:39:00.119708-05:00 liliane kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2026-02-11T08:39:00.119709-05:00 liliane kernel: smpboot: Allowing 6 CPUs, 0 hotplug CPUs
+2026-02-11T08:39:00.119709-05:00 liliane kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2026-02-11T08:39:00.119710-05:00 liliane kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+2026-02-11T08:39:00.119711-05:00 liliane kernel: PM: hibernation: Registered nosave memory: [mem 0x000e0000-0x000e0fff]
+2026-02-11T08:39:00.119714-05:00 liliane kernel: PM: hibernation: Registered nosave memory: [mem 0x000e1000-0x000fffff]
+2026-02-11T08:39:00.119715-05:00 liliane kernel: PM: hibernation: Registered nosave memory: [mem 0x00100000-0x001fffff]
+2026-02-11T08:39:00.119716-05:00 liliane kernel: PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xffffffff]
+2026-02-11T08:39:00.119716-05:00 liliane kernel: [mem 0xf8000000-0xffffffff] available for PCI devices
+2026-02-11T08:39:00.119717-05:00 liliane kernel: Booting paravirtualized kernel on Hyper-V
+2026-02-11T08:39:00.119717-05:00 liliane kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+2026-02-11T08:39:00.119721-05:00 liliane kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:6 nr_cpu_ids:6 nr_node_ids:1
+2026-02-11T08:39:00.119722-05:00 liliane kernel: percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u262144
+2026-02-11T08:39:00.119722-05:00 liliane kernel: pcpu-alloc: s221184 r8192 d28672 u262144 alloc=1*2097152
+2026-02-11T08:39:00.119723-05:00 liliane kernel: pcpu-alloc: [0] 0 1 2 3 4 5 - - 
+2026-02-11T08:39:00.119723-05:00 liliane kernel: Hyper-V: PV spinlocks enabled
+2026-02-11T08:39:00.119724-05:00 liliane kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2026-02-11T08:39:00.119728-05:00 liliane kernel: Kernel command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=6 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+2026-02-11T08:39:00.119835-05:00 liliane kernel: Unknown kernel command line parameters "WSL_ROOT_INIT=1 WSL_ENABLE_CRASH_DUMP=1", will be passed to user space.
+2026-02-11T08:39:00.119836-05:00 liliane kernel: random: crng init done
+2026-02-11T08:39:00.119836-05:00 liliane kernel: Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+2026-02-11T08:39:00.119837-05:00 liliane kernel: Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+2026-02-11T08:39:00.119837-05:00 liliane kernel: Fallback order for Node 0: 0 
+2026-02-11T08:39:00.119842-05:00 liliane kernel: Built 1 zonelists, mobility grouping on.  Total pages: 3611648
+2026-02-11T08:39:00.119843-05:00 liliane kernel: Policy zone: Normal
+2026-02-11T08:39:00.119844-05:00 liliane kernel: mem auto-init: stack:off, heap alloc:on, heap free:off
+2026-02-11T08:39:00.119844-05:00 liliane kernel: software IO TLB: area num 8.
+2026-02-11T08:39:00.119845-05:00 liliane kernel: Memory: 4123740K/14678652K available (20480K kernel code, 3457K rwdata, 13496K rodata, 4492K init, 6208K bss, 374564K reserved, 0K cma-reserved)
+2026-02-11T08:39:00.119846-05:00 liliane kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=6, Nodes=1
+2026-02-11T08:39:00.119849-05:00 liliane kernel: ftrace: allocating 55808 entries in 218 pages
+2026-02-11T08:39:00.119850-05:00 liliane kernel: ftrace: allocated 218 pages with 5 groups
+2026-02-11T08:39:00.119850-05:00 liliane kernel: Dynamic Preempt: none
+2026-02-11T08:39:00.119851-05:00 liliane kernel: rcu: Preemptible hierarchical RCU implementation.
+2026-02-11T08:39:00.119851-05:00 liliane kernel: rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=6.
+2026-02-11T08:39:00.119852-05:00 liliane kernel: 	Trampoline variant of Tasks RCU enabled.
+2026-02-11T08:39:00.119852-05:00 liliane kernel: 	Rude variant of Tasks RCU enabled.
+2026-02-11T08:39:00.119857-05:00 liliane kernel: 	Tracing variant of Tasks RCU enabled.
+2026-02-11T08:39:00.119857-05:00 liliane kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+2026-02-11T08:39:00.119858-05:00 liliane kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=6
+2026-02-11T08:39:00.119859-05:00 liliane kernel: Using NULL legacy PIC
+2026-02-11T08:39:00.119859-05:00 liliane kernel: NR_IRQS: 524544, nr_irqs: 472, preallocated irqs: 0
+2026-02-11T08:39:00.119860-05:00 liliane kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2026-02-11T08:39:00.119863-05:00 liliane kernel: Console: colour dummy device 80x25
+2026-02-11T08:39:00.119864-05:00 liliane kernel: ACPI: Core revision 20230628
+2026-02-11T08:39:00.119864-05:00 liliane kernel: Failed to register legacy timer interrupt
+2026-02-11T08:39:00.119865-05:00 liliane kernel: APIC: Switch to symmetric I/O mode setup
+2026-02-11T08:39:00.119865-05:00 liliane kernel: Hyper-V: Host Build 10.0.26100.7623-7-0
+2026-02-11T08:39:00.119866-05:00 liliane kernel: Hyper-V: enabling crash_kexec_post_notifiers
+2026-02-11T08:39:00.119866-05:00 liliane kernel: Hyper-V: Using IPI hypercalls
+2026-02-11T08:39:00.119870-05:00 liliane kernel: APIC: send_IPI() replaced with hv_send_ipi()
+2026-02-11T08:39:00.119870-05:00 liliane kernel: APIC: send_IPI_mask() replaced with hv_send_ipi_mask()
+2026-02-11T08:39:00.119871-05:00 liliane kernel: APIC: send_IPI_mask_allbutself() replaced with hv_send_ipi_mask_allbutself()
+2026-02-11T08:39:00.119871-05:00 liliane kernel: APIC: send_IPI_allbutself() replaced with hv_send_ipi_allbutself()
+2026-02-11T08:39:00.119872-05:00 liliane kernel: APIC: send_IPI_all() replaced with hv_send_ipi_all()
+2026-02-11T08:39:00.119872-05:00 liliane kernel: APIC: send_IPI_self() replaced with hv_send_ipi_self()
+2026-02-11T08:39:00.119876-05:00 liliane kernel: Hyper-V: Using enlightened APIC (xapic mode)
+2026-02-11T08:39:00.119877-05:00 liliane kernel: APIC: eoi() replaced with hv_apic_eoi_write()
+2026-02-11T08:39:00.119877-05:00 liliane kernel: APIC: read() replaced with hv_apic_read()
+2026-02-11T08:39:00.119878-05:00 liliane kernel: APIC: write() replaced with hv_apic_write()
+2026-02-11T08:39:00.119878-05:00 liliane kernel: APIC: icr_write() replaced with hv_apic_icr_write()
+2026-02-11T08:39:00.119878-05:00 liliane kernel: APIC: icr_read() replaced with hv_apic_icr_read()
+2026-02-11T08:39:00.119882-05:00 liliane kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x1e366be91d8, max_idle_ns: 440795263444 ns
+2026-02-11T08:39:00.119882-05:00 liliane kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 4191.99 BogoMIPS (lpj=8383992)
+2026-02-11T08:39:00.119883-05:00 liliane kernel: x86/cpu: User Mode Instruction Prevention (UMIP) activated
+2026-02-11T08:39:00.119883-05:00 liliane kernel: Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+2026-02-11T08:39:00.119884-05:00 liliane kernel: Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+2026-02-11T08:39:00.119884-05:00 liliane kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2026-02-11T08:39:00.119888-05:00 liliane kernel: Spectre V2 : Mitigation: Retpolines
+2026-02-11T08:39:00.119889-05:00 liliane kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+2026-02-11T08:39:00.119889-05:00 liliane kernel: Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+2026-02-11T08:39:00.119890-05:00 liliane kernel: Spectre V2 : Enabling Speculation Barrier for firmware calls
+2026-02-11T08:39:00.119890-05:00 liliane kernel: RETBleed: Mitigation: untrained return thunk
+2026-02-11T08:39:00.119891-05:00 liliane kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+2026-02-11T08:39:00.119891-05:00 liliane kernel: Spectre V2 : Selecting STIBP always-on mode to complement retbleed mitigation
+2026-02-11T08:39:00.119894-05:00 liliane kernel: Spectre V2 : User space: Mitigation: STIBP always-on protection
+2026-02-11T08:39:00.119895-05:00 liliane kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+2026-02-11T08:39:00.119895-05:00 liliane kernel: Speculative Return Stack Overflow: IBPB-extending microcode not applied!
+2026-02-11T08:39:00.119896-05:00 liliane kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-02-11T08:39:00.119896-05:00 liliane kernel: Speculative Return Stack Overflow: Vulnerable: Safe RET, no microcode
+2026-02-11T08:39:00.119897-05:00 liliane kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+2026-02-11T08:39:00.119905-05:00 liliane kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+2026-02-11T08:39:00.119906-05:00 liliane kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+2026-02-11T08:39:00.119906-05:00 liliane kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+2026-02-11T08:39:00.119907-05:00 liliane kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+2026-02-11T08:39:00.119907-05:00 liliane kernel: Freeing SMP alternatives memory: 44K
+2026-02-11T08:39:00.119908-05:00 liliane kernel: pid_max: default: 32768 minimum: 301
+2026-02-11T08:39:00.119912-05:00 liliane kernel: LSM: initializing lsm=capability,landlock,yama,safesetid,selinux,integrity
+2026-02-11T08:39:00.119912-05:00 liliane kernel: landlock: Up and running.
+2026-02-11T08:39:00.119913-05:00 liliane kernel: Yama: becoming mindful.
+2026-02-11T08:39:00.119913-05:00 liliane kernel: SELinux:  Initializing.
+2026-02-11T08:39:00.119913-05:00 liliane kernel: Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2026-02-11T08:39:00.119914-05:00 liliane kernel: Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2026-02-11T08:39:00.119914-05:00 liliane kernel: smpboot: CPU0: AMD Ryzen 5 5500U with Radeon Graphics (family: 0x17, model: 0x68, stepping: 0x1)
+2026-02-11T08:39:00.119917-05:00 liliane kernel: RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=6.
+2026-02-11T08:39:00.119918-05:00 liliane kernel: RCU Tasks Rude: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=6.
+2026-02-11T08:39:00.119918-05:00 liliane kernel: RCU Tasks Trace: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=6.
+2026-02-11T08:39:00.119919-05:00 liliane kernel: Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+2026-02-11T08:39:00.119919-05:00 liliane kernel: ... version:                0
+2026-02-11T08:39:00.119920-05:00 liliane kernel: ... bit width:              48
+2026-02-11T08:39:00.119923-05:00 liliane kernel: ... generic registers:      6
+2026-02-11T08:39:00.119924-05:00 liliane kernel: ... value mask:             0000ffffffffffff
+2026-02-11T08:39:00.119924-05:00 liliane kernel: ... max period:             00007fffffffffff
+2026-02-11T08:39:00.119924-05:00 liliane kernel: ... fixed-purpose events:   0
+2026-02-11T08:39:00.119925-05:00 liliane kernel: ... event mask:             000000000000003f
+2026-02-11T08:39:00.119925-05:00 liliane kernel: signal: max sigframe size: 1776
+2026-02-11T08:39:00.119926-05:00 liliane kernel: rcu: Hierarchical SRCU implementation.
+2026-02-11T08:39:00.119929-05:00 liliane kernel: rcu: 	Max phase no-delay instances is 1000.
+2026-02-11T08:39:00.119929-05:00 liliane kernel: smp: Bringing up secondary CPUs ...
+2026-02-11T08:39:00.119930-05:00 liliane kernel: smpboot: x86: Booting SMP configuration:
+2026-02-11T08:39:00.119930-05:00 liliane kernel: .... node  #0, CPUs:      #2 #4 #1 #3 #5
+2026-02-11T08:39:00.119930-05:00 liliane kernel: Spectre V2 : Update user space SMT mitigation: STIBP always-on
+2026-02-11T08:39:00.119931-05:00 liliane kernel: smp: Brought up 1 node, 6 CPUs
+2026-02-11T08:39:00.119934-05:00 liliane kernel: smpboot: Max logical packages: 1
+2026-02-11T08:39:00.119934-05:00 liliane kernel: smpboot: Total of 6 processors activated (25151.97 BogoMIPS)
+2026-02-11T08:39:00.119935-05:00 liliane kernel: node 0 deferred pages initialised in 32ms
+2026-02-11T08:39:00.119935-05:00 liliane kernel: devtmpfs: initialized
+2026-02-11T08:39:00.119936-05:00 liliane kernel: x86/mm: Memory block size: 128MB
+2026-02-11T08:39:00.119936-05:00 liliane kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+2026-02-11T08:39:00.119950-05:00 liliane kernel: futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+2026-02-11T08:39:00.119950-05:00 liliane kernel: pinctrl core: initialized pinctrl subsystem
+2026-02-11T08:39:00.119951-05:00 liliane kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2026-02-11T08:39:00.119951-05:00 liliane kernel: DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+2026-02-11T08:39:00.119952-05:00 liliane kernel: DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2026-02-11T08:39:00.119952-05:00 liliane kernel: audit: initializing netlink subsys (disabled)
+2026-02-11T08:39:00.119953-05:00 liliane kernel: audit: type=2000 audit(1770817134.052:1): state=initialized audit_enabled=0 res=1
+2026-02-11T08:39:00.119958-05:00 liliane kernel: thermal_sys: Registered thermal governor 'step_wise'
+2026-02-11T08:39:00.119959-05:00 liliane kernel: thermal_sys: Registered thermal governor 'user_space'
+2026-02-11T08:39:00.119959-05:00 liliane kernel: cpuidle: using governor ladder
+2026-02-11T08:39:00.120772-05:00 liliane kernel: cpuidle: using governor menu
+2026-02-11T08:39:00.120786-05:00 liliane kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2026-02-11T08:39:00.120787-05:00 liliane kernel: dca service started, version 1.12.1
+2026-02-11T08:39:00.120812-05:00 liliane kernel: PCI: Fatal: No config space access function found
+2026-02-11T08:39:00.120813-05:00 liliane kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2026-02-11T08:39:00.120814-05:00 liliane kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+2026-02-11T08:39:00.120814-05:00 liliane kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+2026-02-11T08:39:00.120815-05:00 liliane kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2026-02-11T08:39:00.120816-05:00 liliane kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2026-02-11T08:39:00.120816-05:00 liliane kernel: cryptd: max_cpu_qlen set to 1000
+2026-02-11T08:39:00.120823-05:00 liliane kernel: ACPI: Added _OSI(Module Device)
+2026-02-11T08:39:00.120823-05:00 liliane kernel: ACPI: Added _OSI(Processor Device)
+2026-02-11T08:39:00.120824-05:00 liliane kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+2026-02-11T08:39:00.120824-05:00 liliane kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2026-02-11T08:39:00.120825-05:00 liliane kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+2026-02-11T08:39:00.120825-05:00 liliane kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+2026-02-11T08:39:00.120832-05:00 liliane kernel: ACPI: Interpreter enabled
+2026-02-11T08:39:00.120832-05:00 liliane kernel: ACPI: PM: (supports S0 S5)
+2026-02-11T08:39:00.120833-05:00 liliane kernel: ACPI: Using IOAPIC for interrupt routing
+2026-02-11T08:39:00.120833-05:00 liliane kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2026-02-11T08:39:00.120834-05:00 liliane kernel: PCI: Using E820 reservations for host bridge windows
+2026-02-11T08:39:00.120834-05:00 liliane kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+2026-02-11T08:39:00.120840-05:00 liliane kernel: iommu: Default domain type: Translated
+2026-02-11T08:39:00.120841-05:00 liliane kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2026-02-11T08:39:00.120842-05:00 liliane kernel: SCSI subsystem initialized
+2026-02-11T08:39:00.120842-05:00 liliane kernel: libata version 3.00 loaded.
+2026-02-11T08:39:00.120843-05:00 liliane kernel: pps_core: LinuxPPS API ver. 1 registered
+2026-02-11T08:39:00.120843-05:00 liliane kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2026-02-11T08:39:00.120844-05:00 liliane kernel: PTP clock support registered
+2026-02-11T08:39:00.120935-05:00 liliane kernel: EDAC MC: Ver: 3.0.0
+2026-02-11T08:39:00.120939-05:00 liliane kernel: hv_vmbus: Vmbus version:5.3
+2026-02-11T08:39:00.120939-05:00 liliane kernel: hv_vmbus: Unknown GUID: 6e382d18-3336-4f4b-acc4-2b7703d4df4a
+2026-02-11T08:39:00.120940-05:00 liliane kernel: hv_vmbus: Unknown GUID: dde9cbc0-5060-4436-9448-ea1254a5d177
+2026-02-11T08:39:00.120940-05:00 liliane kernel: NetLabel: Initializing
+2026-02-11T08:39:00.120941-05:00 liliane kernel: NetLabel:  domain hash size = 128
+2026-02-11T08:39:00.120951-05:00 liliane kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2026-02-11T08:39:00.120952-05:00 liliane kernel: NetLabel:  unlabeled traffic allowed by default
+2026-02-11T08:39:00.120953-05:00 liliane kernel: PCI: Using ACPI for IRQ routing
+2026-02-11T08:39:00.120953-05:00 liliane kernel: PCI: System does not support PCI
+2026-02-11T08:39:00.120954-05:00 liliane kernel: vgaarb: loaded
+2026-02-11T08:39:00.120954-05:00 liliane kernel: clocksource: Switched to clocksource tsc-early
+2026-02-11T08:39:00.120955-05:00 liliane kernel: VFS: Disk quotas dquot_6.6.0
+2026-02-11T08:39:00.120961-05:00 liliane kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2026-02-11T08:39:00.120961-05:00 liliane kernel: FS-Cache: Loaded
+2026-02-11T08:39:00.120962-05:00 liliane kernel: pnp: PnP ACPI init
+2026-02-11T08:39:00.120962-05:00 liliane kernel: pnp: PnP ACPI: found 1 devices
+2026-02-11T08:39:00.120963-05:00 liliane kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2026-02-11T08:39:00.120963-05:00 liliane kernel: NET: Registered PF_INET protocol family
+2026-02-11T08:39:00.121015-05:00 liliane kernel: IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2026-02-11T08:39:00.121018-05:00 liliane kernel: tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+2026-02-11T08:39:00.121019-05:00 liliane kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2026-02-11T08:39:00.121019-05:00 liliane kernel: TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2026-02-11T08:39:00.121019-05:00 liliane kernel: TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+2026-02-11T08:39:00.121020-05:00 liliane kernel: TCP: Hash tables configured (established 131072 bind 65536)
+2026-02-11T08:39:00.121030-05:00 liliane kernel: UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+2026-02-11T08:39:00.121030-05:00 liliane kernel: UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+2026-02-11T08:39:00.121031-05:00 liliane kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2026-02-11T08:39:00.121031-05:00 liliane kernel: NET: Registered PF_XDP protocol family
+2026-02-11T08:39:00.121032-05:00 liliane kernel: PCI: CLS 0 bytes, default 64
+2026-02-11T08:39:00.121032-05:00 liliane kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+2026-02-11T08:39:00.121033-05:00 liliane kernel: software IO TLB: mapped [mem 0x00000000f4000000-0x00000000f8000000] (64MB)
+2026-02-11T08:39:00.121038-05:00 liliane kernel: Trying to unpack rootfs image as initramfs...
+2026-02-11T08:39:00.121039-05:00 liliane kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1e366be91d8, max_idle_ns: 440795263444 ns
+2026-02-11T08:39:00.121039-05:00 liliane kernel: clocksource: Switched to clocksource tsc
+2026-02-11T08:39:00.121040-05:00 liliane kernel: Initialise system trusted keyrings
+2026-02-11T08:39:00.121040-05:00 liliane kernel: Key type blacklist registered
+2026-02-11T08:39:00.121041-05:00 liliane kernel: workingset: timestamp_bits=36 max_order=22 bucket_order=0
+2026-02-11T08:39:00.121046-05:00 liliane kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+2026-02-11T08:39:00.121047-05:00 liliane kernel: fuse: init (API version 7.39)
+2026-02-11T08:39:00.121047-05:00 liliane kernel: SGI XFS with ACLs, security attributes, realtime, verbose warnings, quota, no debug enabled
+2026-02-11T08:39:00.121048-05:00 liliane kernel: Freeing initrd memory: 2720K
+2026-02-11T08:39:00.121048-05:00 liliane kernel: 9p: Installing v9fs 9p2000 file system support
+2026-02-11T08:39:00.121049-05:00 liliane kernel: Key type asymmetric registered
+2026-02-11T08:39:00.121049-05:00 liliane kernel: Asymmetric key parser 'x509' registered
+2026-02-11T08:39:00.121055-05:00 liliane kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+2026-02-11T08:39:00.121055-05:00 liliane kernel: io scheduler mq-deadline registered
+2026-02-11T08:39:00.121056-05:00 liliane kernel: io scheduler kyber registered
+2026-02-11T08:39:00.121056-05:00 liliane kernel: hv_vmbus: registering driver hv_pci
+2026-02-11T08:39:00.121056-05:00 liliane kernel: hv_pci c4b741f5-5582-4c98-8f8b-2e082933c396: PCI VMBus probing: Using version 0x10004
+2026-02-11T08:39:00.121057-05:00 liliane kernel: hv_pci c4b741f5-5582-4c98-8f8b-2e082933c396: PCI host bridge to bus 5582:00
+2026-02-11T08:39:00.121064-05:00 liliane kernel: pci_bus 5582:00: root bus resource [mem 0x9ffe00000-0x9ffe02fff window]
+2026-02-11T08:39:00.121065-05:00 liliane kernel: pci_bus 5582:00: No busn resource found for root bus, will use [bus 00-ff]
+2026-02-11T08:39:00.121065-05:00 liliane kernel: pci 5582:00:00.0: [1af4:1043] type 00 class 0x010000
+2026-02-11T08:39:00.121066-05:00 liliane kernel: pci 5582:00:00.0: reg 0x10: [mem 0x9ffe00000-0x9ffe00fff 64bit]
+2026-02-11T08:39:00.121066-05:00 liliane kernel: pci 5582:00:00.0: reg 0x18: [mem 0x9ffe01000-0x9ffe01fff 64bit]
+2026-02-11T08:39:00.121067-05:00 liliane kernel: pci 5582:00:00.0: reg 0x20: [mem 0x9ffe02000-0x9ffe02fff 64bit]
+2026-02-11T08:39:00.121073-05:00 liliane kernel: pci_bus 5582:00: busn_res: [bus 00-ff] end is updated to 00
+2026-02-11T08:39:00.121073-05:00 liliane kernel: pci 5582:00:00.0: BAR 0: assigned [mem 0x9ffe00000-0x9ffe00fff 64bit]
+2026-02-11T08:39:00.121074-05:00 liliane kernel: pci 5582:00:00.0: BAR 2: assigned [mem 0x9ffe01000-0x9ffe01fff 64bit]
+2026-02-11T08:39:00.121074-05:00 liliane kernel: pci 5582:00:00.0: BAR 4: assigned [mem 0x9ffe02000-0x9ffe02fff 64bit]
+2026-02-11T08:39:00.121075-05:00 liliane kernel: hv_pci 5275dab6-d262-4059-bbb3-047a9e327c6d: PCI VMBus probing: Using version 0x10004
+2026-02-11T08:39:00.121075-05:00 liliane kernel: hv_pci 5275dab6-d262-4059-bbb3-047a9e327c6d: PCI host bridge to bus d262:00
+2026-02-11T08:39:00.121075-05:00 liliane kernel: pci_bus d262:00: No busn resource found for root bus, will use [bus 00-ff]
+2026-02-11T08:39:00.121080-05:00 liliane kernel: pci d262:00:00.0: [1414:008e] type 00 class 0x030200
+2026-02-11T08:39:00.121081-05:00 liliane kernel: pci_bus d262:00: busn_res: [bus 00-ff] end is updated to 00
+2026-02-11T08:39:00.121082-05:00 liliane kernel: ioatdma: Intel(R) QuickData Technology Driver 5.00
+2026-02-11T08:39:00.121082-05:00 liliane kernel: virtio-pci 5582:00:00.0: enabling device (0000 -> 0002)
+2026-02-11T08:39:00.121083-05:00 liliane kernel: Serial: 8250/16550 driver, 8 ports, IRQ sharing enabled
+2026-02-11T08:39:00.121083-05:00 liliane kernel: Linux agpgart interface v0.103
+2026-02-11T08:39:00.121089-05:00 liliane kernel: AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+2026-02-11T08:39:00.121090-05:00 liliane kernel: ACPI: bus type drm_connector registered
+2026-02-11T08:39:00.121090-05:00 liliane kernel: printk: console [hvc0] enabled
+2026-02-11T08:39:00.121090-05:00 liliane kernel: brd: module loaded
+2026-02-11T08:39:00.121091-05:00 liliane kernel: loop: module loaded
+2026-02-11T08:39:00.121091-05:00 liliane kernel: Loading iSCSI transport class v2.0-870.
+2026-02-11T08:39:00.121092-05:00 liliane kernel: rdac: device handler registered
+2026-02-11T08:39:00.121098-05:00 liliane kernel: Microchip SmartPQI Driver (v2.1.24-046)
+2026-02-11T08:39:00.121098-05:00 liliane kernel: VMware PVSCSI driver - version 1.0.7.0-k
+2026-02-11T08:39:00.121099-05:00 liliane kernel: hv_vmbus: registering driver hv_storvsc
+2026-02-11T08:39:00.121099-05:00 liliane kernel: scsi host0: storvsc_host_t
+2026-02-11T08:39:00.121100-05:00 liliane kernel: PPP generic driver version 2.4.2
+2026-02-11T08:39:00.121100-05:00 liliane kernel: VMware vmxnet3 virtual NIC driver - version 1.7.0.0-k-NAPI
+2026-02-11T08:39:00.121105-05:00 liliane kernel: hv_vmbus: registering driver hv_netvsc
+2026-02-11T08:39:00.121106-05:00 liliane kernel: Fusion MPT base driver 3.04.20
+2026-02-11T08:39:00.121106-05:00 liliane kernel: Copyright (c) 1999-2008 LSI Corporation
+2026-02-11T08:39:00.121107-05:00 liliane kernel: Fusion MPT SPI Host driver 3.04.20
+2026-02-11T08:39:00.121107-05:00 liliane kernel: Fusion MPT SAS Host driver 3.04.20
+2026-02-11T08:39:00.121107-05:00 liliane kernel: Fusion MPT misc device (ioctl) driver 3.04.20
+2026-02-11T08:39:00.121113-05:00 liliane kernel: mptctl: Registered with Fusion MPT base driver
+2026-02-11T08:39:00.121113-05:00 liliane kernel: mptctl: /dev/mptctl @ (major,minor=10,220)
+2026-02-11T08:39:00.121314-05:00 liliane kernel: i8042: PNP: No PS/2 controller found.
+2026-02-11T08:39:00.121320-05:00 liliane kernel: hv_vmbus: registering driver hyperv_keyboard
+2026-02-11T08:39:00.121320-05:00 liliane kernel: rtc_cmos 00:00: RTC can wake from S4
+2026-02-11T08:39:00.121321-05:00 liliane kernel: rtc_cmos 00:00: registered as rtc0
+2026-02-11T08:39:00.121321-05:00 liliane kernel: rtc_cmos 00:00: setting system clock to 2026-02-11T13:38:54 UTC (1770817134)
+2026-02-11T08:39:00.121335-05:00 liliane kernel: rtc_cmos 00:00: alarms up to one month, 114 bytes nvram
+2026-02-11T08:39:00.121336-05:00 liliane kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+2026-02-11T08:39:00.121337-05:00 liliane kernel: device-mapper: uevent: version 1.0.3
+2026-02-11T08:39:00.121337-05:00 liliane kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+2026-02-11T08:39:00.121338-05:00 liliane kernel: hv_utils: Registering HyperV Utility Driver
+2026-02-11T08:39:00.121338-05:00 liliane kernel: hv_vmbus: registering driver hv_utils
+2026-02-11T08:39:00.121344-05:00 liliane kernel: hv_vmbus: registering driver hv_balloon
+2026-02-11T08:39:00.121345-05:00 liliane kernel: hv_vmbus: registering driver dxgkrnl
+2026-02-11T08:39:00.121345-05:00 liliane kernel: hv_utils: TimeSync IC version 4.0
+2026-02-11T08:39:00.121346-05:00 liliane kernel: hv_balloon: Using Dynamic Memory protocol version 2.0
+2026-02-11T08:39:00.121346-05:00 liliane kernel: Free page reporting enabled
+2026-02-11T08:39:00.121347-05:00 liliane kernel: hv_balloon: Cold memory discard hint enabled with order 9
+2026-02-11T08:39:00.121352-05:00 liliane kernel: drop_monitor: Initializing network drop monitor service
+2026-02-11T08:39:00.121353-05:00 liliane kernel: NET: Registered PF_INET6 protocol family
+2026-02-11T08:39:00.121353-05:00 liliane kernel: Segment Routing with IPv6
+2026-02-11T08:39:00.121353-05:00 liliane kernel: In-situ OAM (IOAM) with IPv6
+2026-02-11T08:39:00.121354-05:00 liliane kernel: NET: Registered PF_PACKET protocol family
+2026-02-11T08:39:00.121354-05:00 liliane kernel: 9pnet: Installing 9P2000 support
+2026-02-11T08:39:00.121355-05:00 liliane kernel: NET: Registered PF_VSOCK protocol family
+2026-02-11T08:39:00.121367-05:00 liliane kernel: hv_vmbus: registering driver hv_sock
+2026-02-11T08:39:00.121367-05:00 liliane kernel: IPI shorthand broadcast: enabled
+2026-02-11T08:39:00.121368-05:00 liliane kernel: AVX2 version of gcm_enc/dec engaged.
+2026-02-11T08:39:00.121368-05:00 liliane kernel: AES CTR mode by8 optimization enabled
+2026-02-11T08:39:00.121369-05:00 liliane kernel: sched_clock: Marking stable (432016383, 521244)->(464038845, -31501218)
+2026-02-11T08:39:00.121369-05:00 liliane kernel: registered taskstats version 1
+2026-02-11T08:39:00.121430-05:00 liliane kernel: Loading compiled-in X.509 certificates
+2026-02-11T08:39:00.121433-05:00 liliane kernel: ima: No TPM chip found, activating TPM-bypass!
+2026-02-11T08:39:00.121433-05:00 liliane kernel: ima: Allocated hash algorithm: sha256
+2026-02-11T08:39:00.121434-05:00 liliane kernel: ima: No architecture policies found
+2026-02-11T08:39:00.121434-05:00 liliane kernel: RAS: Correctable Errors collector initialized.
+2026-02-11T08:39:00.121435-05:00 liliane kernel: clk: Disabling unused clocks
+2026-02-11T08:39:00.121440-05:00 liliane kernel: Freeing unused decrypted memory: 2028K
+2026-02-11T08:39:00.121445-05:00 liliane kernel: Freeing unused kernel image (initmem) memory: 4492K
+2026-02-11T08:39:00.121446-05:00 liliane kernel: Write protecting the kernel read-only data: 34816k
+2026-02-11T08:39:00.121446-05:00 liliane kernel: Freeing unused kernel image (rodata/data gap) memory: 840K
+2026-02-11T08:39:00.121447-05:00 liliane kernel: Run /init as init process
+2026-02-11T08:39:00.121447-05:00 liliane kernel:   with arguments:
+2026-02-11T08:39:00.121448-05:00 liliane kernel:     /init
+2026-02-11T08:39:00.121453-05:00 liliane kernel:   with environment:
+2026-02-11T08:39:00.121454-05:00 liliane kernel:     HOME=/
+2026-02-11T08:39:00.121454-05:00 liliane kernel:     TERM=linux
+2026-02-11T08:39:00.121455-05:00 liliane kernel:     WSL_ROOT_INIT=1
+2026-02-11T08:39:00.121455-05:00 liliane kernel:     WSL_ENABLE_CRASH_DUMP=1
+2026-02-11T08:39:00.121456-05:00 liliane kernel: scsi 0:0:0:0: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+2026-02-11T08:39:00.121461-05:00 liliane kernel: scsi 0:0:0:1: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+2026-02-11T08:39:00.121462-05:00 liliane kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+2026-02-11T08:39:00.121463-05:00 liliane kernel: sd 0:0:0:0: [sda] 795880 512-byte logical blocks: (407 MB/389 MiB)
+2026-02-11T08:39:00.121463-05:00 liliane kernel: sd 0:0:0:1: Attached scsi generic sg1 type 0
+2026-02-11T08:39:00.121464-05:00 liliane kernel: sd 0:0:0:0: [sda] Write Protect is on
+2026-02-11T08:39:00.121464-05:00 liliane kernel: sd 0:0:0:1: [sdb] 381016 512-byte logical blocks: (195 MB/186 MiB)
+2026-02-11T08:39:00.121464-05:00 liliane kernel: sd 0:0:0:0: [sda] Mode Sense: 0f 00 80 00
+2026-02-11T08:39:00.121470-05:00 liliane kernel: sd 0:0:0:1: [sdb] Write Protect is on
+2026-02-11T08:39:00.121471-05:00 liliane kernel: sd 0:0:0:1: [sdb] Mode Sense: 0f 00 80 00
+2026-02-11T08:39:00.121471-05:00 liliane kernel: sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+2026-02-11T08:39:00.121472-05:00 liliane kernel: sd 0:0:0:1: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+2026-02-11T08:39:00.121472-05:00 liliane kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+2026-02-11T08:39:00.121473-05:00 liliane kernel: sd 0:0:0:1: [sdb] Attached SCSI disk
+2026-02-11T08:39:00.121478-05:00 liliane kernel: scsi 0:0:0:2: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+2026-02-11T08:39:00.121479-05:00 liliane kernel: sd 0:0:0:2: Attached scsi generic sg2 type 0
+2026-02-11T08:39:00.121479-05:00 liliane kernel: sd 0:0:0:2: [sdc] 8388616 512-byte logical blocks: (4.29 GB/4.00 GiB)
+2026-02-11T08:39:00.121480-05:00 liliane kernel: sd 0:0:0:2: [sdc] 4096-byte physical blocks
+2026-02-11T08:39:00.121480-05:00 liliane kernel: sd 0:0:0:2: [sdc] Write Protect is off
+2026-02-11T08:39:00.121480-05:00 liliane kernel: sd 0:0:0:2: [sdc] Mode Sense: 0f 00 00 00
+2026-02-11T08:39:00.121483-05:00 liliane kernel: sd 0:0:0:2: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2026-02-11T08:39:00.121487-05:00 liliane kernel: sd 0:0:0:2: [sdc] Attached SCSI disk
+2026-02-11T08:39:00.121487-05:00 liliane kernel: EXT4-fs (sda): mounted filesystem 00000000-0000-0000-0000-000000000000 ro without journal. Quota mode: none.
+2026-02-11T08:39:00.121488-05:00 liliane kernel: EXT4-fs (sdb): mounted filesystem 00000000-0000-0000-0000-000000000000 ro without journal. Quota mode: none.
+2026-02-11T08:39:00.121488-05:00 liliane kernel: tun: Universal TUN/TAP device driver, 1.6
+2026-02-11T08:39:00.121489-05:00 liliane kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+2026-02-11T08:39:00.121495-05:00 liliane kernel: Bridge firewalling registered
+2026-02-11T08:39:00.121495-05:00 liliane kernel: Adding 4194304k swap on /dev/sdc.  Priority:-2 extents:1 across:4194304k 
+2026-02-11T08:39:00.121496-05:00 liliane kernel: hv_pci cdb622f9-8a52-44fd-9e75-8f16807fbc67: PCI VMBus probing: Using version 0x10004
+2026-02-11T08:39:00.121496-05:00 liliane kernel: hv_pci cdb622f9-8a52-44fd-9e75-8f16807fbc67: PCI host bridge to bus 8a52:00
+2026-02-11T08:39:00.121497-05:00 liliane kernel: pci_bus 8a52:00: root bus resource [mem 0xc00000000-0xe00001fff window]
+2026-02-11T08:39:00.121497-05:00 liliane kernel: pci_bus 8a52:00: No busn resource found for root bus, will use [bus 00-ff]
+2026-02-11T08:39:00.121498-05:00 liliane kernel: pci 8a52:00:00.0: [1af4:105a] type 00 class 0x088000
+2026-02-11T08:39:00.121503-05:00 liliane kernel: pci 8a52:00:00.0: reg 0x10: [mem 0xe00000000-0xe00000fff 64bit]
+2026-02-11T08:39:00.121504-05:00 liliane kernel: pci 8a52:00:00.0: reg 0x18: [mem 0xe00001000-0xe00001fff 64bit]
+2026-02-11T08:39:00.121504-05:00 liliane kernel: pci 8a52:00:00.0: reg 0x20: [mem 0xc00000000-0xdffffffff 64bit]
+2026-02-11T08:39:00.121505-05:00 liliane kernel: pci_bus 8a52:00: busn_res: [bus 00-ff] end is updated to 00
+2026-02-11T08:39:00.121505-05:00 liliane kernel: pci 8a52:00:00.0: BAR 4: assigned [mem 0xc00000000-0xdffffffff 64bit]
+2026-02-11T08:39:00.121506-05:00 liliane kernel: pci 8a52:00:00.0: BAR 0: assigned [mem 0xe00000000-0xe00000fff 64bit]
+2026-02-11T08:39:00.121511-05:00 liliane kernel: pci 8a52:00:00.0: BAR 2: assigned [mem 0xe00001000-0xe00001fff 64bit]
+2026-02-11T08:39:00.121515-05:00 liliane kernel: virtio-pci 8a52:00:00.0: enabling device (0000 -> 0002)
+2026-02-11T08:39:00.121516-05:00 liliane kernel: virtiofs virtio1: Cache len: 0x200000000 @ 0xc00000000
+2026-02-11T08:39:00.121516-05:00 liliane kernel: scsi 0:0:0:3: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+2026-02-11T08:39:00.121516-05:00 liliane kernel: sd 0:0:0:3: Attached scsi generic sg3 type 0
+2026-02-11T08:39:00.121517-05:00 liliane kernel: sd 0:0:0:3: [sdd] 2147483648 512-byte logical blocks: (1.10 TB/1.00 TiB)
+2026-02-11T08:39:00.121522-05:00 liliane kernel: sd 0:0:0:3: [sdd] 4096-byte physical blocks
+2026-02-11T08:39:00.121522-05:00 liliane kernel: sd 0:0:0:3: [sdd] Write Protect is off
+2026-02-11T08:39:00.121523-05:00 liliane kernel: sd 0:0:0:3: [sdd] Mode Sense: 0f 00 00 00
+2026-02-11T08:39:00.121523-05:00 liliane kernel: sd 0:0:0:3: [sdd] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2026-02-11T08:39:00.121524-05:00 liliane kernel: sd 0:0:0:3: [sdd] Attached SCSI disk
+2026-02-11T08:39:00.121524-05:00 liliane kernel: EXT4-fs (sdd): recovery complete
+2026-02-11T08:39:00.121524-05:00 liliane kernel: EXT4-fs (sdd): mounted filesystem ad50c1be-9135-4cec-bd75-ef508a62477a r/w with ordered data mode. Quota mode: none.
+2026-02-11T08:39:00.121530-05:00 liliane kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+2026-02-11T08:39:00.121531-05:00 liliane kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-11T08:39:00.121534-05:00 liliane kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-11T08:39:00.121536-05:00 liliane kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-11T08:39:00.121568-05:00 liliane kernel: weston[227]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+2026-02-11T08:39:00.121569-05:00 liliane kernel: ACPI: AC: AC Adapter [AC1] (on-line)
+2026-02-11T08:39:00.121580-05:00 liliane kernel: ACPI: battery: Slot [BAT1] (battery present)
+2026-02-11T08:39:00.121581-05:00 liliane kernel: kvm_amd: TSC scaling supported
+2026-02-11T08:39:00.121581-05:00 liliane kernel: kvm_amd: Nested Virtualization enabled
+2026-02-11T08:39:00.121582-05:00 liliane kernel: kvm_amd: Nested Paging enabled
+2026-02-11T08:39:00.121582-05:00 liliane kernel: kvm_amd: kvm_amd: Hyper-V enlightened NPT TLB flush enabled
+2026-02-11T08:39:00.121582-05:00 liliane kernel: kvm_amd: kvm_amd: Hyper-V Direct TLB Flush enabled
+2026-02-11T08:39:00.121588-05:00 liliane kernel: kvm_amd: Virtual VMLOAD VMSAVE supported
+2026-02-11T08:39:02.688324-05:00 liliane kernel: Initializing XFRM netlink socket
+2026-02-11T08:39:42.960820-05:00 liliane kernel: hv_balloon: Max. dynamic memory size: 14336 MB
+2026-02-11T09:00:46.007208-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-11T09:04:45.543689-05:00 liliane kernel: message repeated 4 times: [ mini_init (187): drop_caches: 1]
+2026-02-11T09:34:16.135301-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-11T09:58:16.007382-05:00 liliane kernel: mini_init (187): drop_caches: 1
+2026-02-11T10:51:15.006896-05:00 liliane kernel: Adjusting tsc more than 11% (7087023 vs 8884889)
