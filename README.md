@@ -351,7 +351,7 @@ sudo nginx -t
 * I always **prove the fix** with both service status and endpoint checks.
 * I always keep logs in a folder so I can share proof in a postmortem.
 
-```
+
 
 ---
 
